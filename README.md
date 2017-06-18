@@ -27,5 +27,5 @@ Librería python que permite crear REPL complejos con histórico, autocompletado
 
 * URL: https://github.com/jonathanslenders/python-prompt-toolkit
 * DOC: https://python-prompt-toolkit.readthedocs.io/en/stable/A
-* VIDEO: Awesome Command Line Tools PyCon 2007
+* VIDEO: [Awesome Command Line Tools PyCon 2007](https://www.youtube.com/watch?v=hJhZhLg3obk)
 
