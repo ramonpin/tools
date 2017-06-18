@@ -1,6 +1,36 @@
 # Tools
 Este repositorio es una recopilación de herramientas interesantes. Principalmente se trata de herramientas por linea de comando para linux.
 
+## Tratamiento de ficheros
+
+### CSVKit
+Herramientas para el tratamiento de ficheros en formato CSV y similares. Permiten realizar consultas, extracciones de datos, reformateados y estadísticas sobre este tipo de fichero.
+
+* URL: https://github.com/wireservice/csvkit
+* DOC: https://csvkit.readthedocs.io/en/1.0.2/
+
+### jq
+Herramienta para trabajar con ficheros en formato JSON. Nos permite extraer y reformatear información de un JSON en otro JSON.
+
+* URL: https://stedolan.github.io/jq/
+
+### q - Text as Data
+Permite realizar consultas SQL sobre ficheros de texto en formato CSV y similiares. También puede combinarse con la salida de otros comandos para realizar tratamientos complejos de la información obtenida.
+
+* URL: https://harelba.github.io/q/
+
+## Git
+
+### tig
+Interfaz modo texto para realizar tareas de inspección y mantenimiento de repositorios git locales.
+
+* URL: https://jonas.github.io/tig/
+
+### Le.git
+Añade algunos comandos extra a git de modo que sea más sencillo realizar tareas como la sincronización upstream y el cambio entre ramas de forma 'limpia'.
+
+* URL: http://www.git-legit.org/
+
 ## Bases de datos
 
 ### MyCLI
