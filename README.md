@@ -59,3 +59,8 @@ Librería python que permite crear REPL complejos con histórico, autocompletado
 * DOC: https://python-prompt-toolkit.readthedocs.io/en/stable/A
 * VIDEO: [Awesome Command Line Tools PyCon 2007](https://www.youtube.com/watch?v=hJhZhLg3obk)
 
+### meza
+Librería para el tratamiento de ficheros tabulares en múltiples formatos (csv, xml, xlsx, excel, etc...) El objetivo es ser una alternativa a pandas cuando no son necesarias las características de esta librería. Meza es más ligera a la hora de instalarla y de usarla.
+
+* URL: https://github.com/reubano/meza
+
