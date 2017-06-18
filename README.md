@@ -63,4 +63,4 @@ Librería python que permite crear REPL complejos con histórico, autocompletado
 Librería para el tratamiento de ficheros tabulares en múltiples formatos (csv, xml, xlsx, excel, etc...) El objetivo es ser una alternativa a pandas cuando no son necesarias las características de esta librería. Meza es más ligera a la hora de instalarla y de usarla.
 
 * URL: https://github.com/reubano/meza
-
+* VIDEO: [Functional efficient data processing](https://www.youtube.com/watch?v=9kDUTJahXBM&index=3&list=PL5fKnSm4M_VWxdWRwNuXSxQ3TsYFG4C_l)
