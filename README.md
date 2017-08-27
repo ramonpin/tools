@@ -85,3 +85,19 @@ Librería para el tratamiento de ficheros tabulares en múltiples formatos (csv,
 
 * URL: https://github.com/reubano/meza
 * VIDEO: [Functional efficient data processing](https://www.youtube.com/watch?v=9kDUTJahXBM&index=3&list=PL5fKnSm4M_VWxdWRwNuXSxQ3TsYFG4C_l)
+
+## IDEs
+
+### Spacemacs
+Una reconfiguración de Jemacs25 ideada para simplificar a los usuarios de vim el uso de este editor. Se basa en EvilMode aunque también puede usarse en modo nativo.
+
+* URL: http://spacemacs.org/
+* VIDEO: [Spacemacs - From First Install to Clojure programming](https://www.youtube.com/watch?v=Uuwg-069NYE)
+* VIDEO: [How to Configure Spacemacs](https://www.youtube.com/watch?v=N6xN8qLFFaQ)
+
+### Nightlight
+Un IDE integrado en tu proyecto leiningen o boot.
+
+* URL: https://sekao.net/nightlight/ 
+* VIDEO: [Writing clojure at runtime with Nightlight](https://www.youtube.com/watch?v=EG5BtBEow24)
+
