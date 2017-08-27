@@ -31,6 +31,27 @@ Añade algunos comandos extra a git de modo que sea más sencillo realizar tarea
 
 * URL: http://www.git-legit.org/
 
+## Plain text accounting
+Estas herramientas están relacionadas con la contabilidad de doble entrada. Todas ellas se basan en realizar la entrada de información usando ficheros de texto plano.
+
+URL: http://plaintextaccounting.org/
+
+### hledger
+Clon de ledger hecho en haskell.
+
+* URL: http://hledger.org/
+* VIDEO: (Hands-on with hledger)[https://www.youtube.com/watch?v=H_CdGzLbc7A]
+
+### beancount
+Clon de ledger hecho en python.
+
+* URL: http://furius.ca/beancount/
+
+### Fava
+Interfaz gráfica para beancount.
+
+* URL: https://github.com/beancount/fava
+
 ## Bases de datos
 
 ### MyCLI
