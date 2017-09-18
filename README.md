@@ -78,13 +78,26 @@ Librería python que permite crear REPL complejos con histórico, autocompletado
 
 * URL: https://github.com/jonathanslenders/python-prompt-toolkit
 * DOC: https://python-prompt-toolkit.readthedocs.io/en/stable/A
-* VIDEO: [Awesome Command Line Tools PyCon 2007](https://www.youtube.com/watch?v=hJhZhLg3obk)
+* VIDEO: [Awesome Command Line Tools PyCon 2017](https://www.youtube.com/watch?v=hJhZhLg3obk)
 
 ### meza
 Librería para el tratamiento de ficheros tabulares en múltiples formatos (csv, xml, xlsx, excel, etc...) El objetivo es ser una alternativa a pandas cuando no son necesarias las características de esta librería. Meza es más ligera a la hora de instalarla y de usarla.
 
 * URL: https://github.com/reubano/meza
-* VIDEO: [Functional efficient data processing](https://www.youtube.com/watch?v=9kDUTJahXBM&index=3&list=PL5fKnSm4M_VWxdWRwNuXSxQ3TsYFG4C_l)
+* VIDEO: [Functional efficient data processing PyCon 2017](https://www.youtube.com/watch?v=9kDUTJahXBM&index=3&list=PL5fKnSm4M_VWxdWRwNuXSxQ3TsYFG4C_l)
+
+### RPLY
+Parser generator en python puro y pensdo para usar con RPython.
+
+* URL: https://rply.readthedocs.io/en/latest/
+* VIDEO: [Fastest FizzBuzz in the West Pycon 2017](https://www.youtube.com/watch?v=ApgUrtCrmV8&t=14s)
+
+### RPython
+Es un framework para dar soporte a la implementación de lenguajes dinámicos usando Python como base. Hace especial
+énfasis en la separación entre la definición del lenguaje y su implementación.
+
+* URL: https://rpython.readthedocs.io/en/latest/
+* VIDEO: [Fastest FizzBuzz in the West PyCon2017](https://www.youtube.com/watch?v=ApgUrtCrmV8&t=14s)
 
 ## IDEs
 
