@@ -80,7 +80,7 @@ Es un comando para implementar busquedas difusas en tus scripts. En particular v
 ### fd
 Es una mejora sobre el comando find. Ideal para convinarlo con fzf en la creación de buscadores de ficheros.
 
-* https://github.com/sharkdp/fd 
+* URL: https://github.com/sharkdp/fd 
 * URL: https://mike.place/2017/fzf-fd/
 
 ## Python Libraries
@@ -147,6 +147,5 @@ otro. Es especialmente útil para la conversión de markdown a pdf o docx.
 ### pdfbook
 Esta utilidad del sistema operativo (instalable mediante aptitude) permite convertir un documento pdf
 a una cara en un documento pdf en formato 2up listo para su impresión.
-
 * URL: http://manpages.ubuntu.com/manpages/zesty/man1/pdfbook.1.html
 
