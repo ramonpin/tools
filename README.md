@@ -64,12 +64,24 @@ Es una alterna a la interfaz de linea de comandos de Postgres con el mismo tipo 
 
 * URL: https://www.pgcli.com/
 
-## Shells
+## Shell
 
 ### Fish Shell
 Shell con autocompletado 'al vuelo'. Según escribes un comando te ofrece sugerencias según tu historial de comandos.
 
 * URL: https://fishshell.com/
+
+### fzf
+Es un comando para implementar busquedas difusas en tus scripts. En particular viene preparado para integrarse en el shell mediante el atajo de teclado ctrl-T y permitir búsquedas en la carpeta local.
+
+* URL: https://github.com/junegunn/fzf
+* URL: https://mike.place/2017/fzf-fd/
+
+### fd
+Es una mejora sobre el comando find. Ideal para convinarlo con fzf en la creación de buscadores de ficheros.
+
+* https://github.com/sharkdp/fd 
+* URL: https://mike.place/2017/fzf-fd/
 
 ## Python Libraries
 
@@ -113,4 +125,15 @@ Un IDE integrado en tu proyecto leiningen o boot.
 
 * URL: https://sekao.net/nightlight/ 
 * VIDEO: [Writing clojure at runtime with Nightlight](https://www.youtube.com/watch?v=EG5BtBEow24)
+
+### nvim
+Un mejor vim. Más rápido y compatible con el vim tradicional.
+
+* URL: https://salt.bountysource.com/teams/neovim
+
+### SpaceVim
+Spacevim es un conjunto de plugins y un sistema de configuración basado en layers para vim. Es similar al Spacemacs.
+
+* URL: https://spacevim.org/
+
 
