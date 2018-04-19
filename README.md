@@ -136,7 +136,7 @@ Spacevim es un conjunto de plugins y un sistema de configuración basado en laye
 
 * URL: https://spacevim.org/
 
-## PDF Tools
+## PDF/Slide Tools
 
 ### pandoc
 Pandoc es el transpilador de documentos universal. Es capaz de transformar documentos de un tipo en 
@@ -147,5 +147,16 @@ otro. Es especialmente útil para la conversión de markdown a pdf o docx.
 ### pdfbook
 Esta utilidad del sistema operativo (instalable mediante aptitude) permite convertir un documento pdf
 a una cara en un documento pdf en formato 2up listo para su impresión.
+
 * URL: http://manpages.ubuntu.com/manpages/zesty/man1/pdfbook.1.html
+
+### vegetables
+Convierte docmentos en formato markdown en slides HTML.
+
+* URL: https://partageit.github.io/vegetables/
+
+### markdown-to-slides
+Conversor simple de documentos markdown a slides HTML.
+
+* URL: https://github.com/partageit/markdown-to-slides
 
