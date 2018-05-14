@@ -83,6 +83,13 @@ Es una mejora sobre el comando find. Ideal para convinarlo con fzf en la creaci�
 * URL: https://github.com/sharkdp/fd 
 * URL: https://mike.place/2017/fzf-fd/
 
+### silver sercher - ag
+Es otro buscador de archivos pensado para tener el mejor rendimiento posible. Es similar a grep y ack pero más rápido en ejecución. Está escrito en C y se puede instalar desde aptitude con:
+
+    sudo aptitude install silversearcher-ag 
+
+* URL: https://github.com/ggreer/the_silver_searcher
+
 ## Python Libraries
 
 ### prompt-toolkit
