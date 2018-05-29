@@ -90,6 +90,19 @@ Es otro buscador de archivos pensado para tener el mejor rendimiento posible. Es
 
 * URL: https://github.com/ggreer/the_silver_searcher
 
+### sshfs
+Es un filesystem FUSE que permite montar directorios remotos por SSH a nuestra máquina local. Ideal para editar con herramientas gráficas
+ficheros que se encuentran en máquinas servidoras.
+
+    sudo aptitude install sshfs
+
+Un ejemplo de uso:
+
+    mkdir ~/remotes/servidor1
+    sshfs -o IdentityFile=~/.ssh/id_rsa_oyr user@servidor1:/a/given/path ~/remotes/servidor1
+
+* URL: https://github.com/libfuse/sshfs
+
 ## Python Libraries
 
 ### prompt-toolkit
