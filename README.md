@@ -103,6 +103,15 @@ Un ejemplo de uso:
 
 * URL: https://github.com/libfuse/sshfs
 
+### entr
+Con entr es posible planificar la ejecución de comandos arbitrarios cuando uno o varios ficheros cambian.
+
+    sudo aptitude install entr
+
+
+* URL: http://entrproject.org/
+* URL: https://github.com/joereynolds/entree
+
 ## Python Libraries
 
 ### prompt-toolkit
