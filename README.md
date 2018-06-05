@@ -99,7 +99,7 @@ ficheros que se encuentran en máquinas servidoras.
 Un ejemplo de uso:
 
     mkdir ~/remotes/servidor1
-    sshfs -o IdentityFile=~/.ssh/id_rsa_oyr user@servidor1:/a/given/path ~/remotes/servidor1
+    sshfs -o IdentityFile=~/.ssh/id_rsa user@servidor1:/a/given/path ~/remotes/servidor1
 
 * URL: https://github.com/libfuse/sshfs
 
@@ -143,7 +143,7 @@ Es un framework para dar soporte a la implementación de lenguajes dinámicos us
 ## IDEs
 
 ### Spacemacs
-Una reconfiguración de Jemacs25 ideada para simplificar a los usuarios de vim el uso de este editor. Se basa en EvilMode aunque también puede usarse en modo nativo.
+Una reconfiguración de emacs25 ideada para simplificar a los usuarios de vim el uso de este editor. Se basa en EvilMode aunque también puede usarse en modo nativo.
 
 * URL: http://spacemacs.org/
 * VIDEO: [Spacemacs - From First Install to Clojure programming](https://www.youtube.com/watch?v=Uuwg-069NYE)
