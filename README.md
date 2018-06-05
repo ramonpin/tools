@@ -165,7 +165,7 @@ Spacevim es un conjunto de plugins y un sistema de configuración basado en laye
 
 * URL: https://spacevim.org/
 
-## PDF/Slide Tools
+## PDF/Slide/Publication Tools
 
 ### pandoc
 Pandoc es el transpilador de documentos universal. Es capaz de transformar documentos de un tipo en 
@@ -188,4 +188,18 @@ Convierte docmentos en formato markdown en slides HTML.
 Conversor simple de documentos markdown a slides HTML.
 
 * URL: https://github.com/partageit/markdown-to-slides
+
+### jekyll
+Creación de blogs como sitios estáticos a partir de ficheros markdown. Este es el sistema que se utiliza
+para las 'github pages'. Está implementado en ruby así que necesitaremos un interprete del mismo y su
+gestor de paquetes (gem). Es recomendable utilizar una herramienta de gestión de entornos ruby como rbenv.
+
+* URL: https://jekyllrb.com/
+
+### mkdocs
+Un projecto similar a jekyll pero para la creación de páginas de documentación. Esta herramienta está implementada
+en python. Será necesario tener un interprete de este lenguaje y su gestor de paquetes (pip). Es recomendable utilizar
+un entorno virtual con virtualenvs o venv.
+
+* URL: https://www.mkdocs.org/
 
