@@ -31,6 +31,14 @@ Añade algunos comandos extra a git de modo que sea más sencillo realizar tarea
 
 * URL: http://www.git-legit.org/
 
+### gas
+Este es un gestor de authors para git. Con el se simplifica el uso de múltiples usuarios en una misma máquina a la hora de hacer commits en los 
+repositorios. Se trata de una gema de ruby así que es necesario tener este interprete instalado.
+
+    $> gem install gas
+
+* URL: https://github.com/walle/gas
+
 ## Plain text accounting
 Estas herramientas están relacionadas con la contabilidad de doble entrada. Todas ellas se basan en realizar la entrada de información usando ficheros de texto plano.
 
