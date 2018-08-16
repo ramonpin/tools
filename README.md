@@ -26,6 +26,11 @@ Interfaz modo texto para realizar tareas de inspección y mantenimiento de repos
 
 * URL: https://jonas.github.io/tig/
 
+### Lazygit
+Otra muy buena interfaz en modo texto para git similar a tig.
+
+* URL: https://github.com/jesseduffield/lazygit
+
 ### Le.git
 Añade algunos comandos extra a git de modo que sea más sencillo realizar tareas como la sincronización upstream y el cambio entre ramas de forma 'limpia'.
 
@@ -38,6 +43,11 @@ repositorios. Se trata de una gema de ruby así que es necesario tener este inte
     $> gem install gas
 
 * URL: https://github.com/walle/gas
+
+### Extra-commands
+Colección de scripts para facilitar ciertas tareas complejas. Contiene algunas joyas como 'move-commits' o 'change-author'.
+
+* URL: https://github.com/unixorn/git-extra-commands
 
 ## Plain text accounting
 Estas herramientas están relacionadas con la contabilidad de doble entrada. Todas ellas se basan en realizar la entrada de información usando ficheros de texto plano.
