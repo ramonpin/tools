@@ -19,6 +19,12 @@ Permite realizar consultas SQL sobre ficheros de texto en formato CSV y similiar
 
 * URL: https://harelba.github.io/q/
 
+### Miller
+Miller es como awk, sed, cut, join y sort para CSV, TSV y JSON tabular.
+
+ * URL: https://github.com/johnkerl/miller
+ * DOC: http://johnkerl.org/miller/doc/
+
 ## Git
 
 ### tig
