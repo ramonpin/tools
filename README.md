@@ -136,6 +136,16 @@ Con entr es posible planificar la ejecución de comandos arbitrarios cuando uno 
 * URL: http://entrproject.org/
 * URL: https://github.com/joereynolds/entree
 
+### pass
+El gestor de passwords de Unix basado en gpg. Puede ser instalado desde el gestor de paquetes de la distribución
+pero para obtener la última versión estable es preferible hacerlo manualmente desde el repositorio.
+
+Una vez descargado el mismo puede ejecutarse:
+
+    $> sudo PREFIX=/usr/local make install
+
+* URL: https://www.passwordstore.org/
+
 ## Python Libraries
 
 ### prompt-toolkit
