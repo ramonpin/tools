@@ -212,6 +212,11 @@ otro. Es especialmente útil para la conversión de markdown a pdf o docx.
 
 * URL: http://pandoc.org/
 
+### eisvogel pandoc pdf template
+El mejor template para la creación de libros y handouts a usando de markdown y pandoc.
+
+* URL: https://github.com/Wandmalfarbe/pandoc-latex-template
+
 ### pdfbook
 Esta utilidad del sistema operativo (instalable mediante aptitude) permite convertir un documento pdf
 a una cara en un documento pdf en formato 2up listo para su impresión.
@@ -241,4 +246,11 @@ en python. Será necesario tener un interprete de este lenguaje y su gestor de p
 un entorno virtual con virtualenvs o venv.
 
 * URL: https://www.mkdocs.org/
+
+## appImages
+
+### dockstation
+Interfaz gráfica para la administración de contenedores docker en local y remoto.
+
+* URL: https://dockstation.io/
 
