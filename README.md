@@ -22,8 +22,19 @@ Permite realizar consultas SQL sobre ficheros de texto en formato CSV y similiar
 ### Miller
 Miller es como awk, sed, cut, join y sort para CSV, TSV y JSON tabular.
 
- * URL: https://github.com/johnkerl/miller
- * DOC: http://johnkerl.org/miller/doc/
+* URL: https://github.com/johnkerl/miller
+* DOC: http://johnkerl.org/miller/doc/
+
+### Drake
+Herramienta para la creación de pipeline de tratamiento de datos con bash. Drake es 'Make for data'.
+
+* URL: https://github.com/Factual/drake
+
+### feedgnuplot
+Herramienta para crear gráficos con gnuplot. Permite definir el gráfico mediante parámetros de la línea de comando en lugar de tener que crear un script.
+También permite leer los datos desde la entrada estandard en lugar de requerir un fichero y puede hacer streaminig de los datos.
+
+* URL: https://github.com/dkogan/feedgnuplot
 
 ## Git
 
@@ -58,7 +69,7 @@ Colección de scripts para facilitar ciertas tareas complejas. Contiene algunas 
 ## Plain text accounting
 Estas herramientas están relacionadas con la contabilidad de doble entrada. Todas ellas se basan en realizar la entrada de información usando ficheros de texto plano.
 
-URL: http://plaintextaccounting.org/
+* URL: http://plaintextaccounting.org/
 
 ### hledger
 Clon de ledger hecho en haskell.
@@ -150,6 +161,13 @@ Una vez descargado el mismo puede ejecutarse:
     $> sudo PREFIX=/usr/local make install
 
 * URL: https://www.passwordstore.org/
+
+### drip
+Lazador de procesos java alternativo. Precalienta una JVM para cada proceso que se lanza de modo que las siguientes
+ejecuciones son arrancan mucho más rápido. Ideal para herramientas por línea de comando. Se utiliza por ejemplo con
+Drake.
+
+* URL: https://github.com/ninjudd/drip 
 
 ## Python Libraries
 
