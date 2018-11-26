@@ -169,6 +169,16 @@ Drake.
 
 * URL: https://github.com/ninjudd/drip 
 
+
+### run-one 
+El comando 'run-one' es un wrapper que permite garantizar que solo se ejecuta simultáneamente una instancia de un
+determinado proceso y argumentos.
+
+Tiene algunas alternativas utiles como 'run-this-one', 'run-one-constantly', 'keep-one-running', 'run-one-until-success' y 
+'run-one-until-failure'.
+
+* URL: http://manpages.ubuntu.com/manpages/xenial/man1/run-one.1.html 
+ 
 ## Python Libraries
 
 ### prompt-toolkit
