@@ -178,7 +178,13 @@ Tiene algunas alternativas utiles como 'run-this-one', 'run-one-constantly', 'ke
 'run-one-until-failure'.
 
 * URL: http://manpages.ubuntu.com/manpages/xenial/man1/run-one.1.html 
- 
+
+### ptrepl
+Permite utilizar cualquier comando cli como si fuera una linea de comandos con autocompletado. Por ejemplo `ptrepl git` simplifica
+el uso de git.
+
+* URL: https://github.com/imomaliev/ptrepl
+
 ## Python Libraries
 
 ### prompt-toolkit
