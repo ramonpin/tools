@@ -179,6 +179,11 @@ Tiene algunas alternativas utiles como 'run-this-one', 'run-one-constantly', 'ke
 
 * URL: http://manpages.ubuntu.com/manpages/xenial/man1/run-one.1.html 
 
+### pypager
+Un pager (estilo less) muy potente e implementado en python.
+
+* URL: https://github.com/prompt-toolkit/pypager
+
 ### ptrepl
 Permite utilizar cualquier comando cli como si fuera una linea de comandos con autocompletado. Por ejemplo `ptrepl git` simplifica
 el uso de git.
