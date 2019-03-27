@@ -3,6 +3,11 @@ Este repositorio es una recopilación de herramientas interesantes. Principalmen
 
 ## Tratamiento de ficheros
 
+### Datamash
+Herramienta genérica para el tratamiento de ficheros de texto que contienen datos delimitados.
+
+* URL: https://www.gnu.org/software/datamash/
+
 ### CSVKit
 Herramientas para el tratamiento de ficheros en formato CSV y similares. Permiten realizar consultas, extracciones de datos, reformateados y estadísticas sobre este tipo de fichero.
 
