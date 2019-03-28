@@ -317,3 +317,10 @@ aplicaciones.
 
 * URL: https://appimage.org/
 
+## Templating
+
+### cookie
+Applicación muy sencilla para crear plantillas de fichero o proyecto y luego crear esos tipos de elemento a partir de las mismas.
+
+* *URL: https://github.com/bbugyi200/cookie
+
