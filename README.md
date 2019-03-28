@@ -298,3 +298,22 @@ Interfaz gráfica para la administración de contenedores docker en local y remo
 
 * URL: https://dockstation.io/
 
+## Gestión de entornos / paquetes
+
+### nix
+Gestor de paquetes y entornos de software para linux. Permite instalar versiones más recientes de algunas herramientas como por 
+ejemplo GIT.
+
+* URL: https://nixos.org/nix/about.html
+
+### snap
+Otro gestor de paquetes de software para linux. Se parece mucho a chocolatey.
+
+* URL: https://snapcraft.io/ 
+
+### appimages
+Repositorio de aplicaciones autocontenidas para linux. También extiste una herramienta para crear este tipo de
+aplicaciones.
+
+* URL: https://appimage.org/
+
