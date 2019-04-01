@@ -324,3 +324,11 @@ Applicación muy sencilla para crear plantillas de fichero o proyecto y luego cr
 
 * *URL: https://github.com/bbugyi200/cookie
 
+## Filemanagers
+
+### ranger
+Completo navegador de ficheros por línea de comando.
+
+* URL: https://ranger.github.io/
+* URL: https://github.com/ranger/ranger
+
