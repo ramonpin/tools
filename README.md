@@ -332,3 +332,10 @@ Completo navegador de ficheros por línea de comando.
 * URL: https://ranger.github.io/
 * URL: https://github.com/ranger/ranger
 
+## Gestión del tiempo
+
+### timetrap
+CLI time tracker for shell written in ruby.
+
+* URL: https://github.com/samg/timetrap
+
