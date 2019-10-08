@@ -195,6 +195,11 @@ el uso de git.
 
 * URL: https://github.com/imomaliev/ptrepl
 
+### newsboat
+Agregador RSS para la línea de comando. Permite acceder a feeds en paginas de noticias, canales de youtube, subreddits, etc...
+
+* URL: https://newsboat.org/
+
 ## Python Libraries
 
 ### prompt-toolkit
