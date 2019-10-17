@@ -136,6 +136,11 @@ Es otro buscador de archivos pensado para tener el mejor rendimiento posible. Es
 
 * URL: https://github.com/ggreer/the_silver_searcher
 
+### ack3
+Sustituto de grep escrito en perl y mucho más rápido.
+
+* URL: https://beyondgrep.com/
+
 ### sshfs
 Es un filesystem FUSE que permite montar directorios remotos por SSH a nuestra máquina local. Ideal para editar con herramientas gráficas
 ficheros que se encuentran en máquinas servidoras.
