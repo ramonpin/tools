@@ -59,7 +59,7 @@ Añade algunos comandos extra a git de modo que sea más sencillo realizar tarea
 * URL: http://www.git-legit.org/
 
 ### gas
-Este es un gestor de authors para git. Con el se simplifica el uso de múltiples usuarios en una misma máquina a la hora de hacer commits en los 
+Este es un gestor de authors para git. Con el se simplifica el uso de múltiples usuarios en una misma máquina a la hora de hacer commits en los
 repositorios. Se trata de una gema de ruby así que es necesario tener este interprete instalado.
 
     $> gem install gas
@@ -125,13 +125,13 @@ Es un comando para implementar busquedas difusas en tus scripts. En particular v
 ### fd
 Es una mejora sobre el comando find. Ideal para convinarlo con fzf en la creación de buscadores de ficheros.
 
-* URL: https://github.com/sharkdp/fd 
+* URL: https://github.com/sharkdp/fd
 * URL: https://mike.place/2017/fzf-fd/
 
 ### silver sercher - ag
 Es otro buscador de archivos pensado para tener el mejor rendimiento posible. Es similar a grep y ack pero más rápido en ejecución. Está escrito en C y se puede instalar desde aptitude con:
 
-    sudo aptitude install silversearcher-ag 
+    sudo aptitude install silversearcher-ag
 
 * URL: https://github.com/ggreer/the_silver_searcher
 
@@ -172,17 +172,17 @@ Lazador de procesos java alternativo. Precalienta una JVM para cada proceso que 
 ejecuciones son arrancan mucho más rápido. Ideal para herramientas por línea de comando. Se utiliza por ejemplo con
 Drake.
 
-* URL: https://github.com/ninjudd/drip 
+* URL: https://github.com/ninjudd/drip
 
 
-### run-one 
+### run-one
 El comando 'run-one' es un wrapper que permite garantizar que solo se ejecuta simultáneamente una instancia de un
 determinado proceso y argumentos.
 
-Tiene algunas alternativas utiles como 'run-this-one', 'run-one-constantly', 'keep-one-running', 'run-one-until-success' y 
+Tiene algunas alternativas utiles como 'run-this-one', 'run-one-constantly', 'keep-one-running', 'run-one-until-success' y
 'run-one-until-failure'.
 
-* URL: http://manpages.ubuntu.com/manpages/xenial/man1/run-one.1.html 
+* URL: http://manpages.ubuntu.com/manpages/xenial/man1/run-one.1.html
 
 ### pypager
 Un pager (estilo less) muy potente e implementado en python.
@@ -200,7 +200,41 @@ Agregador RSS para la línea de comando. Permite acceder a feeds en paginas de n
 
 * URL: https://newsboat.org/
 
+### colorls
+Versión avanza de ls que utiliza icons y degradados de color para representar los tipos y antiguedad de los ficheros.
+
+* URL: https://github.com/athityakumar/colorls
+
+### nerd-fonts
+Colección de fuentes patcheadas para terminales linux que incluyen los iconos necesarios para el prompt powerline y otras utilidades como colorls.
+
+* URL: https://github.com/ryanoasis/nerd-fonts
+
+### glances
+Sustituto de htop que crea un dashboard sobre el estado del sistema. Permite, mediante un plugin, monitorizar también los contenedores docker en ejecución.
+
+* URL: https://nicolargo.github.io/glances/
+* DOC: https://glances.readthedocs.io/en/stable/
+
+### pydf
+Versión mejorada del comando df que representa la información de forma más visual.
+
+* URL: https://github.com/k4rtik/pydf-pypi
+
+### trash-CLI
+Sustituto del comando rm que integra el borrado de ficheros en el shell con la papelera del desktop. Permite también listar, rescuperar y borrar los contenidos de la papelera desde la línea de comandos.
+
+* URL: https://github.com/andreafrancia/trash-cli
+
+NOTA: Lo instalé usando 'pip3 install --user trash-cli'
+
 ## Python Libraries
+
+### pex
+Herramienta que permite crear un empaquetado autoejecutable a partir de un entorno virtual o
+un conjunto de paquetes instalados en local.
+
+* URL: https://github.com/pantsbuild/pex
 
 ### prompt-toolkit
 Librería python que permite crear REPL complejos con histórico, autocompletado, autosugerencias basadas en el histórico, coloreado sintáctico, etc...
@@ -240,7 +274,7 @@ Una reconfiguración de emacs25 ideada para simplificar a los usuarios de vim el
 ### Nightlight
 Un IDE integrado en tu proyecto leiningen o boot.
 
-* URL: https://sekao.net/nightlight/ 
+* URL: https://sekao.net/nightlight/
 * VIDEO: [Writing clojure at runtime with Nightlight](https://www.youtube.com/watch?v=EG5BtBEow24)
 
 ### nvim
@@ -256,7 +290,7 @@ Spacevim es un conjunto de plugins y un sistema de configuración basado en laye
 ## PDF/Slide/Publication Tools
 
 ### pandoc
-Pandoc es el transpilador de documentos universal. Es capaz de transformar documentos de un tipo en 
+Pandoc es el transpilador de documentos universal. Es capaz de transformar documentos de un tipo en
 otro. Es especialmente útil para la conversión de markdown a pdf o docx.
 
 * URL: http://pandoc.org/
@@ -306,7 +340,7 @@ Interfaz gráfica para la administración de contenedores docker en local y remo
 ## Gestión de entornos / paquetes
 
 ### nix
-Gestor de paquetes y entornos de software para linux. Permite instalar versiones más recientes de algunas herramientas como por 
+Gestor de paquetes y entornos de software para linux. Permite instalar versiones más recientes de algunas herramientas como por
 ejemplo GIT.
 
 * URL: https://nixos.org/nix/about.html
@@ -314,7 +348,7 @@ ejemplo GIT.
 ### snap
 Otro gestor de paquetes de software para linux. Se parece mucho a chocolatey.
 
-* URL: https://snapcraft.io/ 
+* URL: https://snapcraft.io/
 
 ### appimages
 Repositorio de aplicaciones autocontenidas para linux. También extiste una herramienta para crear este tipo de
@@ -343,4 +377,3 @@ Completo navegador de ficheros por línea de comando.
 CLI time tracker for shell written in ruby.
 
 * URL: https://github.com/samg/timetrap
-
