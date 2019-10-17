@@ -390,3 +390,13 @@ Recopilación de las mejores awesome-lists de github.
 Listado de cosas alucinantes para tu terminal.
 
 * URL: https://terminalsare.sexy/
+
+### Awesome python Apps
+Listado de las mejores aplicaciones escritas en python.
+
+* URL: https://github.com/mahmoud/awesome-python-applications
+
+### Awesome python (a secas)
+Listado de herramientas, librerías y aplciaciones en python.
+
+* URL: https://github.com/vinta/awesome-python
