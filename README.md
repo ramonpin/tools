@@ -385,6 +385,7 @@ CLI time tracker escrito en ruby.
 * URL: https://github.com/samg/timetrap
 
 ## Awesome lists
+Compendio de mis awesome lists favoritas.
 
 ### Awesome
 Recopilación de las mejores awesome-lists de github.
@@ -405,3 +406,12 @@ Listado de las mejores aplicaciones escritas en python.
 Listado de herramientas, librerías y aplciaciones en python.
 
 * URL: https://github.com/vinta/awesome-python
+
+## Presentaciones
+Metodos alternativos de realizar presentaciones.
+
+### markdownd presentations
+Presentaciones en el terminal usando markdown como lenguage de composición.
+
+* URL: https://github.com/visit1985/mdp
+
