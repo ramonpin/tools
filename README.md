@@ -124,7 +124,7 @@ Es un comando para implementar busquedas difusas en tus scripts. En particular v
 * TIP: https://github.com/junegunn/fzf/wiki/Examples-(completion)
 
 ### fd
-Es una mejora sobre el comando find. Ideal para convinarlo con fzf en la creación de buscadores de ficheros.
+Es una mejora sobre el comando find. Ideal para combinarlo con fzf en la creación de buscadores de ficheros.
 
 * URL: https://github.com/sharkdp/fd
 * URL: https://mike.place/2017/fzf-fd/
@@ -362,7 +362,7 @@ aplicaciones.
 ### cookie
 Applicación muy sencilla para crear plantillas de fichero o proyecto y luego crear esos tipos de elemento a partir de las mismas.
 
-* *URL: https://github.com/bbugyi200/cookie
+* URL: https://github.com/bbugyi200/cookie
 
 ## Filemanagers
 
@@ -375,6 +375,18 @@ Completo navegador de ficheros por línea de comando.
 ## Gestión del tiempo
 
 ### timetrap
-CLI time tracker for shell written in ruby.
+CLI time tracker escrito en ruby.
 
 * URL: https://github.com/samg/timetrap
+
+## Awesome lists
+
+### Awesome
+Recopilación de las mejores awesome-lists de github.
+
+* URL: https://github.com/sindresorhus/awesome
+
+### Terminals are Sexy
+Listado de cosas alucinantes para tu terminal.
+
+* URL: https://terminalsare.sexy/
