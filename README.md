@@ -121,6 +121,7 @@ Es un comando para implementar busquedas difusas en tus scripts. En particular v
 
 * URL: https://github.com/junegunn/fzf
 * URL: https://mike.place/2017/fzf-fd/
+* TIP: https://github.com/junegunn/fzf/wiki/Examples-(completion)
 
 ### fd
 Es una mejora sobre el comando find. Ideal para convinarlo con fzf en la creación de buscadores de ficheros.
