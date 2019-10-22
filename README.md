@@ -415,3 +415,15 @@ Presentaciones en el terminal usando markdown como lenguage de composición.
 
 * URL: https://github.com/visit1985/mdp
 
+## Escritorio
+
+### screenkey
+Applicación para mostrar en pantalla las teclas pulsadas. Útil para charlas y screencasts.
+
+* URL: https://www.thregr.org/~wavexx/software/screenkey/
+
+### synapse
+Aplicación para lanzar programas sin dejar el teclado.
+
+* URL: https://launchpad.net/synapse-project
+
