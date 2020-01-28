@@ -427,3 +427,8 @@ Aplicación para lanzar programas sin dejar el teclado.
 
 * URL: https://launchpad.net/synapse-project
 
+### flameshot
+Aplicación para tomar pantallazos con las herramientas de edición y publicación incorporadas.
+
+* URL: https://flameshot.js.org/
+
