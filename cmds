@@ -234,3 +234,5 @@
 /usr/local/bin/pass
 /usr/sbin/ntpdate
 /home/ramon/.rbenv/shims/lolcat
+/usr/bin/fold
+/usr/bin/wdiff
