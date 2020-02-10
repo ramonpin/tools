@@ -233,3 +233,4 @@
 /usr/local/bin/clj
 /usr/local/bin/pass
 /usr/sbin/ntpdate
+/home/ramon/.rbenv/shims/lolcat
