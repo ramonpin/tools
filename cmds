@@ -236,3 +236,6 @@
 /home/ramon/.rbenv/shims/lolcat
 /usr/bin/fold
 /usr/bin/wdiff
+/usr/bin/wmctrl
+/usr/bin/xset
+/usr/bin/setxkbmap
