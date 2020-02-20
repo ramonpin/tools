@@ -154,6 +154,17 @@ Un ejemplo de uso:
 
 * URL: https://github.com/libfuse/sshfs
 
+### rclone
+Es un programa que permite hacer rsync a multiples servicios de almacenamiento en nube e incluso montarlos en
+local con FUSE. Algunos de los servicios soportados son googlee drive, dropbox, mega.nz...
+
+* URL: https://rclone.org/
+
+### mole
+Es un programa para simplificaficar la creación de tuneles ssh. 
+
+* URL: https://davrodpin.github.io/mole/
+
 ### entr
 Con entr es posible planificar la ejecución de comandos arbitrarios cuando uno o varios ficheros cambian.
 
