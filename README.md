@@ -279,6 +279,12 @@ Es un framework para dar soporte a la implementación de lenguajes dinámicos us
 * URL: https://rpython.readthedocs.io/en/latest/
 * VIDEO: [Fastest FizzBuzz in the West PyCon2017](https://www.youtube.com/watch?v=ApgUrtCrmV8&t=14s)
 
+### Logzero
+Librería de logging para python muy completa.
+
+* URL: https://logzero.readthedocs.io/en/latest/
+* URL: https://opensource.com/article/20/2/logzero-python
+
 ## IDEs
 
 ### Spacemacs
