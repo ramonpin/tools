@@ -353,6 +353,11 @@ un entorno virtual con virtualenvs o venv.
 
 * URL: https://www.mkdocs.org/
 
+### decktape
+Es una aplicación node que permite exportar una URL como PDF. Útil para pasar presentaciones web a PDF.
+
+* URL: https://github.com/astefanutti/decktape
+
 ## appImages
 
 ### dockstation
