@@ -262,7 +262,7 @@ un conjunto de paquetes instalados en local.
 Librería python que permite crear REPL complejos con histórico, autocompletado, autosugerencias basadas en el histórico, coloreado sintáctico, etc...
 
 * URL: https://github.com/jonathanslenders/python-prompt-toolkit
-* DOC: https://python-prompt-toolkit.readthedocs.io/en/stable/A
+* DOC: https://python-prompt-toolkit.readthedocs.io/en/stable
 * VIDEO: [Awesome Command Line Tools PyCon 2017](https://www.youtube.com/watch?v=hJhZhLg3obk)
 
 ### meza
@@ -332,7 +332,7 @@ El mejor template para la creación de libros y handouts a usando de markdown y 
 Esta utilidad del sistema operativo (instalable mediante aptitude) permite convertir un documento pdf
 a una cara en un documento pdf en formato 2up listo para su impresión.
 
-* URL: http://manpages.ubuntu.com/manpages/zesty/man1/pdfbook.1.html
+* URL: http://manpages.ubuntu.com/manpages/eoan/en/man1/pdfbook.1.html
 
 ### vegetables
 Convierte docmentos en formato markdown en slides HTML.
