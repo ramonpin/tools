@@ -41,6 +41,11 @@ También permite leer los datos desde la entrada estandard en lugar de requerir 
 
 * URL: https://github.com/dkogan/feedgnuplot
 
+### rnr
+Una herramienta para el renombrado de ficheros y directorios en modo batch y de forma segura.
+
+* URL: https://github.com/ChuckDaniels87/rnr 
+
 ## Git
 
 ### tig
