@@ -46,6 +46,11 @@ Una herramienta para el renombrado de ficheros y directorios en modo batch y de 
 
 * URL: https://github.com/ChuckDaniels87/rnr 
 
+### brök
+Chequea enlaces presentes en ficheros de texto. Por ejemplo yo lo utilizo para chequear que las URLs en este README son existen.
+
+* URL: https://github.com/smallhadroncollider/brok
+
 ## Git
 
 ### tig
