@@ -243,6 +243,11 @@ Sustituto de htop que crea un dashboard sobre el estado del sistema. Permite, me
 * URL: https://nicolargo.github.io/glances/
 * DOC: https://glances.readthedocs.io/en/stable/
 
+### bashtop
+Otra herramienta al estilo de htop con un dashboard y una interfaz más modernos.
+
+* URL: https://github.com/aristocratos/bashtop
+
 ### pydf
 Versión mejorada del comando df que representa la información de forma más visual.
 
