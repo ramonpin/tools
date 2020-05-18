@@ -126,6 +126,11 @@ Shell con autocompletado 'al vuelo'. Según escribes un comando te ofrece sugere
 
 * URL: https://fishshell.com/
 
+### pueue
+Es un comando que permite encolar y monitorizar la ejecución de múltiples procesos. Es útil cuando queremos hacer en una misma consola múltiples procesos cuyo tiempo de ejecución es largo.
+
+* URL: https://github.com/Nukesor/pueue
+
 ### fzf
 Es un comando para implementar busquedas difusas en tus scripts. En particular viene preparado para integrarse en el shell mediante el atajo de teclado ctrl-T y permitir búsquedas en la carpeta local.
 
