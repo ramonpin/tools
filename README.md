@@ -315,6 +315,11 @@ Automatización y estandarización del proceso de construcción y testeo de paqu
 
 * URL: https://tox.readthedocs.io/en/latest/ 
 
+### poetry
+Un mejor sistema de gestión de dependencias y empaquetado para proyectos python.
+
+* URL: https://python-poetry.org/
+
 ## IDEs
 
 ### Spacemacs
