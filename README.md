@@ -310,6 +310,11 @@ Lector de epub para la línea de comandos.
 
 * URL:_ https://github.com/wustho/epr
 
+### tox
+Automatización y estandarización del proceso de construcción y testeo de paquetes y aplicaciones python.
+
+* URL: https://tox.readthedocs.io/en/latest/ 
+
 ## IDEs
 
 ### Spacemacs
