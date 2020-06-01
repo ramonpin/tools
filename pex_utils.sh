@@ -34,3 +34,6 @@ pex --python=python3.8 -r =(echo ytmdl) --compile -c ytmdl -o bin/ytmdl
 echo "cookiecutter..."
 pex --python=python3.8 -r =(echo cookiecutter) -c cookiecutter -o bin/cookiecutter
 
+echo "xonsh..."
+pex --python=python3.8 -r =(echo xonsh) -c xonsh -o bin/xonsh
+
