@@ -305,6 +305,11 @@ Librería de logging para python muy completa.
 * URL: https://logzero.readthedocs.io/en/latest/
 * URL: https://opensource.com/article/20/2/logzero-python
 
+### epr
+Lector de epub para la línea de comandos.
+
+* URL:_ https://github.com/wustho/epr
+
 ## IDEs
 
 ### Spacemacs
