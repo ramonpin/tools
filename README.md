@@ -51,6 +51,17 @@ Chequea enlaces presentes en ficheros de texto. Por ejemplo yo lo utilizo para c
 
 * URL: https://github.com/smallhadroncollider/brok
 
+### gron
+Covierte ficheros JSON a un formato de líneas que permite tratarlos con herramientas linux convencionales. Una vez tratados es posible volver a convertirlos
+en fichero JSON.
+
+* URL: https://github.com/tomnomnom/gron
+
+### jid
+Herramienta cli que permite filtar un documento JSON de forma interactiva.
+
+* URL: https://github.com/simeji/jid
+
 ## Git
 
 ### tig
