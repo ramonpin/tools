@@ -1,3 +1,5 @@
 *.pdf
 .brokdb
 *.backup
+bin/**
+
