@@ -31,6 +31,9 @@ pex --python=python3.8 -r =(echo "gitsome") -c gitsome -o bin/gitsome
 echo "ytmdl..."
 pex --python=python3.8 -r =(echo ytmdl) --compile -c ytmdl -o bin/ytmdl
 
+echo "youtube-dl..."
+pex --python=python3.8 -r =(echo youtube-dl) -c youtube-dl -o bin/youtube-dl
+
 echo "cookiecutter..."
 pex --python=python3.8 -r =(echo cookiecutter) -c cookiecutter -o bin/cookiecutter
 
