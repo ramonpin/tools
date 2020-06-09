@@ -20,7 +20,7 @@ echo "termdown..."
 pex --python=python3.8 -r =(echo "termdown\nsetuptools") -c termdown -o bin/termdown
 
 echo "mycli..."
-pex --python=python3.8 -r =(echo mycli) -c mycli -o bin/mycli
+pex --python=python3.8 -r =(echo "mycli\nsetuptools") -c mycli -o bin/mycli
 
 echo "http..."
 pex --python=python3.8 -r =(echo "httpie\nsetuptools") -c http -o bin/http
