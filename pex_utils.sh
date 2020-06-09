@@ -29,7 +29,7 @@ echo "gitsome..."
 pex --python=python3.8 -r =(echo "gitsome") -c gitsome -o bin/gitsome
 
 echo "ytmdl..."
-pex --python=python3.8 -r =(echo ytmdl) --compile -c ytmdl -o bin/ytmdl
+pex --python=python3.8 -r =(echo ytmdl) -c ytmdl -o bin/ytmdl
 
 echo "youtube-dl..."
 pex --python=python3.8 -r =(echo youtube-dl) -c youtube-dl -o bin/youtube-dl
