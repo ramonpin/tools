@@ -1,0 +1,881 @@
+1602586268:0;apm install atom-beautify
+1602586341:0;apm install atom-file-icons hasklig
+1570615308:0;apm install atom-ide-ui
+1566394728:0;apm install autocomplete-python
+1571656021:0;apm install dracula-ui dracula-night-syntax dracula-syntax 
+1570616242:0;apm install gvfs-trash
+1570615145:0;apm install ide-rust
+1570615567:0;apm install language-rust-bundled
+1602586239:0;apm install linter-joker
+1571044472:0;apm install markdown-preview-enhanced
+1571314989:0;apm install markdown-preview-enhanced\
+1602586119:0;apm install parinfer lisp-paredit rainbow-delimiters
+1602586161:0;apm install proto-repl ink
+
+1570438930:0;apt install lightdm lightdm-settings slick-greeter
+
+1591004083:0;aptitude install espeak-ng
+1583769709:0;aptitude install git-cola
+1579086509:0;aptitude install gnome-shell
+1591636577:0;aptitude install python-gi-dev python3-gi-dev
+1565085387:0;aptitude install qt-sdk
+1570712007:0;aptitude install squashfs-tools
+
+1606730789:0;~/.borgbackup/bin/pip install borgbackup
+
+1587359609:0;cabal install brok
+1607012812:0;cargo install bandwhich
+1607012802:0;cargo install bandwich
+1573470172:0;cargo install bat
+1594636924:0;cargo install bk
+1578575986:0;cargo install broot
+1607014242:0;cargo install cargo-cache
+1572339830:0;cargo install cargo-update
+1578588462:0;cargo install clog-cli
+1583848719:0;cargo install clog-cli
+1607013893:0;cargo install du-dust
+1603357499:0;cargo install fd
+1589478481:0;cargo install fd-find
+1582019744:0;cargo install -f --git https://github.com/cjbassi/ytop ytop
+1571996488:0;cargo install fselect
+1603275761:0;cargo install gitui
+1587373546:0;cargo install grex
+1567426612:0;cargo install hyperfine
+1572002404:0;cargo install loop-rs
+1607598980:0;cargo install menyoki
+1571761491:0;cargo install nu
+1573487449:0;cargo install onefetch
+1587377276:0;cargo install onefetch
+1603357910:0;cargo install --path .
+1603357867:0;cargo install --path /dev/shm
+1607011330:0;cargo install procs
+1589798725:0;cargo install pueue
+1591605970:0;cargo install rga
+1560942312:0;cargo install ripgrep_all
+1591606043:0;cargo install ripgrep_all
+1587359138:0;cargo install rnr
+1606739704:0;cargo install smag
+1589186284:0;cargo install verco
+1572340815:0;cargo install zola
+
+1587360707:0;doas aptitude install sharutils
+1589190250:0;doas aptitude install audacity
+1586762422:0;doas aptitude install com.github.johnfactotum.foliate_2.1.1_all.deb
+1583921135:0;doas aptitude install darktable
+1587021189:0;doas aptitude install espeak-data
+1591004094:0;doas aptitude install espeak-ng
+1591004673:0;doas aptitude install espeak-ng-espeak
+1599133573:0;doas aptitude install falkon
+1607602444:0;doas aptitude install fsharp
+1606482956:0;doas aptitude install fuse3
+1587456442:0;doas aptitude install ghostwriter
+1589359288:0;doas aptitude install gifsicle imagemagick
+1585312667:0;doas aptitude install grub-customizer
+1589214075:0;doas aptitude install idle
+1589214086:0;doas aptitude install idle-3.7
+1589214100:0;doas aptitude install idle-python3.7
+1589214125:0;doas aptitude install idle-python3.8
+1583935705:0;doas aptitude install inkscape
+1602593939:0;doas aptitude install iptraf-ng nethogs
+1607603968:0;doas aptitude install jove
+1606482825:0;doas aptitude install libacl1-dev libacl1 libssl-dev libb2-dev liblz4-dev libzstd-dev
+1591609039:0;doas aptitude install libcurl4-openssl-dev libx11-dev libxt-dev libimlib2-dev libxinerama-dev libjpeg-progs
+1606482930:0;doas aptitude install libfuse-dev fuse libfuse3-dev fuse3
+1585141821:0;doas aptitude install libgdk-dev
+1587467273:0;doas aptitude install libjpeg-dev zlib1g-dev
+1590047516:0;doas aptitude install libpthread-workqueue-dev 
+1589993080:0;doas aptitude install libsdl2-2.0-0 libsdl2-mixer-2.0-0 libsdl2-image-2.0-0 libsdl2-gfx-1.0-0
+1590570154:0;doas aptitude install libstfl0
+1590570127:0;doas aptitude install libstfl-dev
+1591878098:0;doas aptitude install lxc-utils
+1607604170:0;doas aptitude install medit
+1586769087:0;doas aptitude install menulibre
+1602779834:0;doas aptitude install nmap
+1592464969:0;doas aptitude install numlockx
+1596131675:0;doas aptitude install obs-studio
+1599553446:0;doas aptitude install pastebinit
+1591636221:0;doas aptitude install piper
+1589804444:0;doas aptitude install protracker
+1589364933:0;doas aptitude install python2-gi
+1589992033:0;doas aptitude install python3.8-dbg libpython3.8-dev
+1589992693:0;doas aptitude install python3-dsl2
+1589364916:0;doas aptitude install python3-gi
+1589992699:0;doas aptitude install python3-sdl2
+1589364944:0;doas aptitude install python-gi
+1591636595:0;doas aptitude install python-gi-dev
+1591636585:0;doas aptitude install python-gi-dev python3-gi-dev
+1588581197:0;doas aptitude install scrcpy
+1587360719:0;doas aptitude install sharutils
+1587360742:0;doas aptitude install sharutils-doc
+1583915334:0;doas aptitude install sudo
+1584635151:0;doas aptitude install transmission
+1596175610:0;doas aptitude install vino
+1584543013:0;doas aptitude install virtualenv
+1584373715:0;doas aptitude install w3m-img
+1586775106:0;doas aptitude install wireguard
+1586775095:0;doas aptitude install wireguard-ammp
+1586773895:0;doas aptitude install xcalib
+1599553653:0;doas aptitude install xfce4-screensaver
+1594195531:0;doas aptitude install zeitgeist
+1594195565:0;doas aptitude install zeitgeist-explorer
+
+1588601023:0;doas flatpak install com.github.johnfactotum.Foliate
+1588600987:0;doas flatpak install foliate
+1588601039:0;doas flatpak install --user com.github.johnfactotum.Foliate
+
+1597234613:0;doas snap install bpytop
+1599132802:0;doas snap install falkon
+1603185231:0;doas snap install onefetch
+1584364261:0;doas snap install pixelorama
+1590657873:0;doas snap install scrcpy
+1586775120:0;doas snap install wireguard-ammp
+1584364259:0;dooas snap install pixelorama
+
+1583163634:0;echo "beakerx install --lab" > install.sh
+1583938808:0;echo "jupyter nbextension install --prefix ~/virtualenvs/beakerx  --py hide_code" >> install.sh
+1583938794:0;echo "pip install hide_code" >> install.sh
+1583938913:0;echo "pip install iplantuml" >> install.sh
+1578495877:0;exenv install 
+1578495895:0;exenv install 1.10.0-rc.0
+1566374855:0;exenv install 1.7.3
+1603197085:0;exenv install --help
+1578495881:0;exenv install --list
+1607612694:0;exenv install --list
+
+1584363891:0;flatpak install flathub net.drawpile.drawpile
+
+1570612039:0;gem install bropages
+1571302171:0;gem install colorls
+1574244507:0;gem install mdless
+1571210401:0;gem install mdless\
+1584433966:0;gem install ncurses-ruby
+1578648620:0;gem install terjira\
+1574248845:0;gem install terminal-emojify
+1561024759:0;gem install timetrap
+1569249145:0;gem install -U gollum
+1571302166:0;gem install -v colorls
+1571302160:0;gem -v install colorls
+
+1571761370:0;go install github.com/cristianoliveira/ergo\
+1578402915:0;go install hugo
+1583845084:0;go install -i github.com/kevinpollet/srv/cmd/srv 
+1566802962:0;gradle install kotlin 1.3.50
+
+1578410122:0;gu install --file ~/Downloads/python-installable-svm-svmee-darwin-amd64-19.2.0.1.jar\
+1578410139:0;gu install --file ~/Downloads/python-installable-svm-svmee-linux-amd64-19.2.0.1.jar\
+1578410102:0;gu install native-image
+1565352061:0;gu install R
+
+1583427746:0;jupyter-contrib nbextension install --sys-prefix
+1583936233:0;jupyter nbextension install --help
+1583936226:0;jupyter nbextension install hide_code
+1583936293:0;jupyter nbextension install --prefix ~/virtualenvs/beakerx  --py hide_code
+1583936034:0;jupyter nbextension install --py hide_code
+1583936279:0;jupyter nbextension install --sys-prefix=~/virtualenvs/beakerx  --py hide_code
+1583936262:0;jupyter nbextension install --sys-prefix ~/virtualenvs/beakerx  --py hide_code
+
+1572340757:0;nix install zola
+
+1574161367:0;npm install ci
+1574764220:0;npm install -g dashflow
+1583928255:0;npm install -g decktape
+1574241256:0;npm install -g elm-test elm-format
+1594801354:0;npm install -g @gardenapple/readability-cli
+1578934464:0;npm install -g git-commander
+1583850656:0;npm install -g git-stats-importer
+1574162650:0;npm install --global @angular/cli
+1574162941:0;npm install --global @angular/cli@8.2.14
+1574174925:0;npm install --global @angular/cli@8.3.19
+1590501927:0;npm install --global asciicast2gif
+1574240410:0;npm install --global elm
+1578656308:0;npm install --global idea
+1574174854:0;npm install --global magicbook
+1589976208:0;npm install --global markdown-spellcheck
+1589976189:0;npm install --global mdspell
+1571043968:0;npm install --global mermaid
+1590054336:0;npm install --global --update @marp-team/marp-cli
+1574174832:0;npm install --global wopr
+1571211904:0;npm install -g mad
+1574174794:0;npm install -g mad 
+1582025883:0;npm install -g @marp-team/marp-cli
+1574174802:0;npm install -g mdr
+1571211994:0;npm install -g mdr\
+1588753172:0;npm install -g neovim
+1589976336:0;npm install -g npm
+1596448161:0;npm install -g npm
+1605809282:0;npm install -g npm
+1605809232:0;npm install -g svg-term-cli\
+1588066597:0;npm install -g swagger-markdown
+1570550454:0;npm install -g terminalizer
+1588848215:0;npm install -g tiddlywiki
+1592418099:0;npm install -g tldr
+1592418093:0;npm install -g tlfr
+1569251033:0;npm install magicbook-codesplit
+1569248693:0;npm install magicbook -g
+1569248690:0;npm install magicbook -g+
+1569251063:0;npm install magicbook-katex
+1569251050:0;npm install magicbook-ktex
+1590054015:0;npm install --update marp
+1590054030:0;npm install --update marp-cli
+1590054042:0;npm install --update @marp-team/marp-cli
+
+1573485069:0;n sudo -i aptitude install timewarrior 
+1573485066:0;nwq sudo -i aptitude install timewarrior 
+1573485074:0;nw sudo -i aptitude install timewarrior 
+
+1584540376:0;pip2 install --user -U neovim
+1572341462:0;pip3.7 install mdcat
+1571653526:0;pip3.7 install melt
+1571653606:0;pip3.7 install pyint
+1571653344:0;pip3.7 install --user melt
+1572341468:0;pip3.7 install --user pip
+1571653613:0;pip3.7 install --user pyint
+1571916758:0;pip3.7 install --user ranger-fm
+1591607056:0;pip3 install git+https://github.com/saulpw/visidata@v2.-3.0
+1571214383:0;pip3 install 'glances[docker]'
+1588847507:0;pip3 install jep jedi pyspark virtualenv
+1571211754:0;pip3 install markdown-viewer
+1572343977:0;pip3 install pygments
+1606316866:0;pip3 install thefuck --upgrade
+1574775700:0;pip3 install -U googler
+1578588247:0;pip3 install -U legit
+1588752934:0;pip3 install -U neovim
+1571653243:0;pip3 install --upgrade pip
+1569585965:0;pip3 install --upgrade --user pip
+1605019214:0;pip3 install -U pip
+
+1591720516:0;pip3 install -U -r /home/ramon/development/python-tools-venv/requirements.txt
+1571213561:0;pip3 install --user bottle
+1573038747:0;pip3 install --user bpython
+1583740493:0;pip3 install --user cbeams
+1571214277:0;pip3 install --user docker
+1572531758:0;pip3 install --user doitlive
+1583849831:0;pip3 install --user git-sweep
+1571212408:0;pip3 install --user glances
+1587538837:0;pip3 install --user mansnip-kristopolous
+1572341475:0;pip3 install --user mdcat
+1571653338:0;pip3 install --user melt
+1570609504:0;pip3 install --user modelzoo
+1571046805:0;pip3 install --user pandoc-plantuml-filter\
+1572000079:0;pip3 install --user percol
+1571216493:0;pip3 install --user pex
+1572341454:0;pip3 install --user pip
+1585217371:0;pip3 install --user poetry
+1590999760:0;pip3 install --user poetry
+1570550801:0;pip3 install --user pydf
+1572343987:0;pip3 install --user pygments
+1591636848:0;pip3 install --user PyGObject
+1591636829:0;pip3 install --user python3-gobject
+1591636821:0;pip3 install --user python-gi
+1591636816:0;pip3 install --user python-gobject
+1571667537:0;pip3 install --user pywal
+1571918915:0;pip3 install --user ranger-fm
+1571918910:0;pip3 install --user setuptools
+1583853278:0;pip3 install --user storm_indicator
+1583853126:0;pip3 install --user stormssh
+1573132444:0;pip3 install --user tabulate
+1570633127:0;pip3 install --user thefuck
+1571216497:0;pip3 install --user tox
+1570631699:0;pip3 install --user tpip
+1571153593:0;pip3 install --user trash-cli 
+1574775710:0;pip3 install --user -U googler
+1574939027:0;pip3 install --user -U googler
+1578588257:0;pip3 install --user -U legit
+1584540300:0;pip3 install --user -U neovim
+1588753010:0;pip3 install --user -U neovim
+1586860636:0;pip3 install --user -U pex
+1590573227:0;pip3 install --user --upgrade jc
+
+1571653258:0;pip3 install --user --upgrade pip
+1588753002:0;pip3 install --user --upgrade pip
+1583231923:0;pip3 install --user -U wormhole
+1587460204:0;pip3 install --user vtt_to_srt\
+1571918897:0;pip3 install --user wheel
+1579595166:0;pip3 install --user xar 
+1571917890:0;pip3 install -U --user pip
+1571918890:0;pip3 install wheel
+1571212400:0;pip3 --user install glances
+1583853269:0;pip3 --user install storm_indicator
+1569585909:0;pip3 --user install thefuck
+1605021723:0;~/.pipenv/bin/pip install pipenv
+1605022374:0;~/.pipenv/bin/pip install pipenv-pipes 
+1605791847:0;pipenv install .
+1605715963:0;pipenv install bpython --dev
+1606813299:0;pipenv install click
+1605543263:0;pipenv install click psutils
+1605539339:0;pipenv install flake8 pytest
+1605716815:0;pipenv install flake8 pytest --dev
+1603791067:0;pipenv install --help
+1605023202:0;pipenv install ipykernel --dev
+1605715939:0;pipenv install JPype1
+1605778929:0;pipenv install loguru
+1605782760:0;pipenv install loguru --dev
+1605779870:0;pipenv install mypy --dev
+1605791885:0;pipenv install -r .
+1605021920:0;pipenv install requests
+1605778740:0;pipenv install rope --dev
+1605791900:0;pipenv install -r setup.cfg
+1605791893:0;pipenv install -r setup.py
+1605791859:0;pipenv install setup.cfg
+1605541413:0;pipenv --python ~/.pyenv/versions/3.8.6/bin/python install .
+1605023581:0;pipenv run ipython kernel install --user --name=advancedpython
+1605128274:0;pip install .
+1584970174:0;pip install \\
+1605537572:0;pip install "Adafruit-CircuitPython-DHT ; 'arm' in platform_machine"
+1606467919:0;pip install ajenti-panel ajenti.plugin.ace ajenti.plugin.augeas ajenti.plugin.auth-users ajenti.plugin.core ajenti.plugin.dashboard ajenti.plugin.datetime ajenti.plugin.filemanager ajenti.plugin.filesystem ajenti.plugin.network ajenti.plugin.notepad ajenti.plugin.packages ajenti.plugin.passwd ajenti.plugin.plugins ajenti.plugin.power ajenti.plugin.services ajenti.plugin.settings ajenti.plugin.terminal
+1606467997:0;pip install ajenti-panel ajenti.plugin.core ajenti.plugin.dashboard ajenti.plugin.settings ajenti.plugin.plugins
+1606470798:0;pip install alive-progress
+1606481794:0;pip install --allow-external argparse psdash
+1584543110:0;pip install ansible==2.4.0.0
+1587467348:0;pip install arcade
+1606472149:0;pip install asciimatics
+1578389650:0;pip install 'auditorium[server]'
+1578389646:0;pip install auditorium[server]
+1574769083:0;pip install aws
+1574769150:0;pip install awscli
+1574769146:0;pip install aws-cli
+1583318356:0;pip install bash_kernel
+1606472477:0;pip install bashplotlib
+1572335864:0;pip install bcrypt
+1588847868:0;pip install -b /dev/shm jep jedi pyspark virtualenv
+1582029528:0;pip install beakerx
+1606728356:0;pip install borg
+1606728505:0;pip install borgbackup
+1606482162:0;pip install 'borgbackup'
+1606482985:0;pip install 'borgbackup[llfuse]'
+1606482114:0;pip install 'borgbackup[llfuse3]'
+1606482060:0;pip install 'borgbackup[pyfuse3]'
+1606482055:0;pip install borgbackup[pyfuse3]
+1604572206:0;pip install bpytho
+1572954838:0;pip install bpython
+1579691914:0;pip install bpython
+1582129880:0;pip install bpython
+1584970489:0;pip install bpython
+1589993374:0;pip install bpython
+1594649696:0;pip install bpython
+1601882927:0;pip install bpython
+1606838239:0;pip install bpython
+1604572668:0;pip install bpytop
+1606218955:0;pip install bs4
+1606476357:0;pip install cerberus
+1571919232:0;pip install chardet
+1594736661:0;pip install chevron
+1606813116:0;pip install click
+1606813112:0;pip install clikck
+1569491383:0;pip install cmd2
+1566301478:0;pip install coconut hy
+1601889633:0;pip install colorama
+1607620288:0;pip install colorama
+1572954832:0;pip install crontab
+1572335851:0;pip install cryptography
+1606474570:0;pip install cryptography
+1600770988:0;pip install csvkit pysqlite
+1600771248:0;pip install csvkit pysqlite3
+1600770977:0;pip install csvkit pysqlte
+1606482615:0;pip install cython
+1607596504:0;pip install dailycovid
+1582129806:0;pip install dask
+1582129812:0;pip install dask_ml
+1582129856:0;pip install dask_ml.joblib
+1601882885:0;pip install demjson
+1582978320:0;pip install deoplete
+1566288297:0;pip install deoplete neovim
+1604409911:0;pip install .[dev]
+1604410008:0;pip install '.[dev]'
+1604409917:0;pip install [dev]
+1606477269:0;pip install diagrams
+1567150443:0;pip install dist/argosctl-0.8.0-py3-none-any.whl
+1591720717:0;pip install docker-compose
+1566220761:0;pip install doit
+1589810397:0;pip install elasticsearch
+1606412694:0;pip install errbot
+1606412860:0;pip install "errbot[slack]"
+1606473604:0;pip install eventlet\
+1587464293:0;pip install fastapi uvicorn
+1566390243:0;pip install fire
+1566301294:0;pip install flake8
+1605622272:0;pip install flake8-mypy
+1594649688:0;pip install funcparserlib
+1576576861:0;pip install gallery-dl
+1579690917:0;pip install git+https://github.com/arount/pytea 
+1579691931:0;pip install git+https://github.com/dblueai/giteapy.git
+1571216598:0;pip install glances
+1581610566:0;pip install gogs_client
+1573735100:0;pip install gogs-client
+1583935917:0;pip install hide_code
+1567426595:0;pip install hyperfine
+1583935234:0;pip install iplantuml
+1573122982:0;pip install ipython
+1582129529:0;pip install ipywidgets
+1588847720:0;pip install jep jedi pyspark virtualenv
+1606816460:0;pip install jinja2
+1573122923:0;pip install jira
+1573122880:0;pip install jira-python
+1582129950:0;pip install joblib
+1604572538:0;pip install jupyter
+1582029440:0;pip install 'jupyter[all]'
+1582031046:0;pip install 'jupyter[all]' beakerx pandas scikit-learn ipywidgets py4j 
+1583427709:0;pip install jupyter_contrib_nbextensions
+1582189759:0;pip install jupyterlab
+1583426653:0;pip install jupyterthemes
+1571238795:0;pip install kibitzr
+1571141630:0;pip install kivy
+1574768028:0;pip install localstack
+1582978157:0;pip install logzero
+1570040837:0;pip install matplotlib
+1582130067:0;pip install matplotlib
+1583163834:0;pip install matplotlib
+1568703965:0;pip install mechanize
+1605790643:0;pip install /media/ramon/f9abf31d-9e05-4c6f-9dec-9bb9c0612a74/development/marmita-sdk/dist/marmita-1.0.0-py3-none-any.whl
+1605790891:0;pip install /media/ramon/f9abf31d-9e05-4c6f-9dec-9bb9c0612a74/development/marmita-sdk/marmita-python/dist/marmita-1.0.0-py3-none-any.whl
+1604689051:0;pip install microbit-dummy\
+1583228313:0;pip install minio
+1572360287:0;pip install mkdocs
+1572360470:0;pip install mkdocs-material
+1578925886:0;pip install mredu
+1576744791:0;pip install mycli
+1605615693:0;pip install mypy
+1566374939:0;pip install nbconvert
+1566298391:0;pip install neovim
+1582189711:0;pip install nodejs
+1573030183:0;pip install nose
+1573030179:0;pip install nose2
+1604571891:0;pip install numpy
+1606814288:0;pip install numpy pyqrcode
+1606475382:0;pip install orange3
+1566289871:0;pip install p5
+1600724459:0;pip install pandas
+1566287459:0;pip install pandas numpy
+1582029630:0;pip install pandas scikit-learn
+1579691033:0;pip install parse
+1566302279:0;pip install pdb
+1566458550:0;pip install pika flasjk
+1566458552:0;pip install pika flask
+1606316515:0;pip install pip
+1566464170:0;pip install pip-autoremove
+1566463899:0;pip install pìp-autoremove
+1587455940:0;pip install plotly
+1589214152:0;pip install podium
+1589214006:0;pip install podium==0.0.0
+1589214001:0;pip install podium=0.0.0
+1589993355:0;pip install ppb
+1604590560:0;pip install pre-commit
+1606481758:0;pip install psdash 
+1606481778:0;pip install psdash --allow-external argparse
+1606481263:0;pip install psutil
+1606481259:0;pip install psutils
+1606413524:0;pip install ptipython
+1606468957:0;pip install ptpython
+1582029679:0;pip install py4j
+1572335875:0;pip install pyasn1
+1587455905:0;pip install pycontry
+1587455910:0;pip install pycountry
+1605526398:0;pip install pygame==2.0.0
+1571918630:0;pip install pygmentize
+1571919219:0;pip install pygments
+1600774418:0;pip install pygments
+1571668864:0;pip install pygme nts
+1594723061:0;pip install pygments-style-darcula
+1594723103:0;pip install pygments-style-dracula
+1582974886:0;pip install PyGObject
+1591877368:0;pip install pygost
+1605625838:0;pip install pylama
+1566287687:0;pip install pylint
+1573037320:0;pip install pylint falke8
+1573037326:0;pip install pylint flake8
+1566303217:0;pip install PyPDF2\
+1583739233:0;pip install pyqt5
+1606837087:0;pip install pyspark==
+1606837927:0;pip install pyspark==2.3
+1606838225:0;pip install pyspark==2.3.0
+1606837645:0;pip install pyspark==3.0
+1575981618:0;pip install pytest
+1606477944:0;pip install pytest
+1591879379:0;pip install python
+1572436765:0;pip install python-gitlab
+1566464195:0;pip install qpass
+1604506856:0;pip install -r .
+1571750395:0;pip install ranger
+1571916963:0;pip install ranger-fm
+1562585662:0;pip install renpy
+1584558628:0;pip install requests
+1585215632:0;pip install requests-toolbelt
+1591719808:0;pip install -r /home/ramon/development/python-tools-venv/requirements.txt
+1606468593:0;pip install rich
+1583163193:0;pip install RISE
+1606473987:0;pip install scoop
+1604488705:0;pip install setuptools
+1607620309:0;pip install shellingham 
+1605615890:0;pip install sqlalchemy-stubs
+1591877003:0;pip install ssss
+1591879344:0;pip install ssss gost
+1591879369:0;pip install ssss pygost
+1606479751:0;pip install supersqlite
+1573040202:0;pip install --target build/test_env bpython
+1573040219:0;pip install --target build/test_env --upgrade bpython
+1569585553:0;pip install thefuck
+1606210427:0;pip install thespian
+1581502165:0;pip install thonny
+1581501929:0;pip install thony
+1566218044:0;pip install thriftpy
+1606478042:0;pip install tinydb
+1584540628:0;pip install treq
+1566286309:0;pip install trial
+1572335836:0;pip install twisted
+1584540596:0;pip install twisted
+1607620097:0;pip install typer
+1584540744:0;pip install -U
+1584540722:0;pip install -U --all
+1606480280:0;pip install -U arrow
+1584540615:0;pip install -U attrs
+1585304190:0;pip install -U bash_kernel
+1591724195:0;pip install -U bpython
+1589796449:0;pip install -U cheat
+1604685794:0;pip install -U cheat
+1584540651:0;pip install -U cryptography
+1584540161:0;pip install -U deoplete
+1569311477:0;pip install -U docker-compose
+1601547652:0;pip install -U docker-compose
+1606316647:0;pip install -U glances
+1591721166:0;pip install -U litecli
+1605790933:0;pip install -U /media/ramon/f9abf31d-9e05-4c6f-9dec-9bb9c0612a74/development/marmita-sdk/marmita-python/dist/marmita-1.0.0-py3-none-any.whl
+1605799994:0;pip install -U /media/ramon/f9abf31d-9e05-4c6f-9dec-9bb9c0612a74/development/marmita-sdk/marmita-python/dist/marmitasdk-1.0.0-py3-none-any.whl
+1591721314:0;pip install -U mycli
+1584540449:0;pip install -U neovim
+1573823807:0;pip install -U npyscreen
+1591724131:0;pip install -U numpy
+1591722187:0;pip install -U pex
+1591721226:0;pip install -U pgcli
+1591721351:0;pip install -U pgcli litecli
+
+1573823996:0;pip install -U pyscreen npyscreen
+1566220730:0;pip install -U pyyaml
+1571848900:0;pip install -U ranger
+1566218082:0;pip install -U requests
+1566218154:0;pip install -U requests==2.20
+1591714725:0;pip install -U -r /home/ramon/development/python-tools-venv/requirements.txt
+1566218291:0;pip install urllib3==1.24 idna==2.7
+1596478938:0;pip install -U -r requirements.txt
+1588262110:0;pip install -Ur requirements.txt
+1584960734:0;pip install -U -r updates.txt
+1572335579:0;pip install urwid
+1606470420:0;pip install -U scalene
+1591724579:0;pip install -U scikit-lear
+1591724584:0;pip install -U scikit-learn
+1570609558:0;pip install --user easymodels
+1576576712:0;pip install --user gallery-dl
+1571668834:0;pip install --user pygments
+1591636853:0;pip install --user PyGObject
+1571653265:0;pip install --user --upgrade pip
+1583231877:0;pip install --user -U wormhole
+1583231890:0;pip install --user -U wormhole.cli
+1587460230:0;pip install --user vtt_to_srt\
+1579595147:0;pip install --user xar 
+1572954810:0;pip install -U setuptools
+1572954807:0;pip install -U setup-tools
+1591885795:0;pip install -U ssss
+1566219168:0;pip install -U toolz
+1566218314:0;pip install -U "urllib3<1.25,>=1.21.1"
+1566218310:0;pip install -U urllib3<1.25,>=1.21.1
+1566218177:0;pip install -U urllib3 idna chardet certifi
+1571917879:0;pip install -U --user pip
+1607619919:0;pip install uvicorn fastapi
+1606474361:0;pip install uvloop
+1572333568:0;pip install -U wheel
+1566220707:0;pip install -U yaml
+1561323146:0;pip install -U youtube-dl
+1584961118:0;pip install -U youtube-dl
+1572335564:0;pip install -UY pip wheel
+1584961071:0;pip install -U ytmdl 
+1566290113:0;pip install vispy numpy
+1566220524:0;pip install weasyprint
+1579691870:0;pip install xar
+1600767784:0;pip install xlrd
+1573810564:0;pip install ytdlm
+1573810592:0;pip install ytmdl
+1572335728:0;pip install zope
+1585304284:0;pip install zsh_jupyter_kernel
+
+1606123369:0;pipx/bin/pip install -U pipx
+1606123626:0;pipx/bin/pipx install git+https://github.com/psf/black.git
+1606123473:0;pipx/bin/pipx install pycowsay
+1606123617:0;pipx install git+https://github.com/psf/black.git
+1605628884:0;~/.pre-commit/bin/pip install pre-commit
+1605628596:0;~/.precommit/bin/pip install precommit
+1605628865:0;~/.pre-commit/bin/pip install -U pip setuptools wheel
+
+1605540844:0;pyenv install 3.8.6
+1605269290:0;pyenv install 3.9
+1605269297:0;pyenv install 3.9.0
+1606210213:0;pyenv  install --list
+1606210218:0;pyenv  install --list | less -SCR
+1572002964:0;python3.7 -m pip install shellhistory
+1605019281:0;python3.7 -m pip install -U pip
+1572002968:0;python3.7 -m pip install --user shellhistory
+1605019305:0;python3.7 -m pip install --user -U pip
+1605616944:0;python3 -m pip install flake8\
+1588752982:0;python3 -m pip install --upgrade pip
+1601893878:0;python3 setup.py bdist_wheel && pip install -e
+1601899275:0;python3 setup.py bdist_wheel && pip install -e .
+
+
+1603802118:0;python setup.py install --dry-run
+1603796672:0;python setup.py install --dry-run 
+1603803939:0;python setup.py install --dry-run | less -SCR
+1570612140:0;rbenv install 2.4.1
+1570612164:0;rbenv install --list
+1570612168:0;rbenv install --list | less -SC
+1570611390:0;rustup toolchain install --help
+1568620150:0;sdk install crash
+1565009911:0;sdk install crash 1.3.0
+1565009896:0;sdk install crash 1.3.3
+1568620149:0;sdk install crashç
+1566549611:0;sdk install gradle 4.10.3
+1584705357:0;sdk install gradle 4.4.1
+1567067104:0;sdk install gradle 5.6.1
+1591016126:0;sdk install gradle 6.4.1
+1561023034:0;sdk install groovy 2.5.7
+1565685796:0;sdk install groovy 3.0.0-beta-3
+1604668055:0;sdk install java 10.0.2-zulu
+1579253293:0;sdk install java 11.0.5.hs-adpt
+1606333342:0;sdk install java 11.0.9-zulu
+1606333295:0;sdk install java 15.0.5-zulu
+1565351515:0;sdk install java 19.1.1-grl
+1566549745:0;sdk install java 19.2.0-grl
+1578409452:0;sdk install java 19.2.0-grl
+1578409503:0;sdk install java 19.3.0.2.r11-grl
+1578408857:0;sdk install java 19.3.0.r11-grl  
+1591286240:0;sdk install java 20.1.0.r11-grl
+1578409374:0;sdk install java 8.0.202
+1578409398:0;sdk install java 8.0.202-zulu
+1578559547:0;sdk install jbang 0.4.0.1
+1606333490:0;sdk install jbang 0.54.1
+1561024172:0;sdk install kotlin 1.3.40
+1566803045:0;sdk install kotlin 1.3.50
+1574848317:0;sdk install kotlin 1.3.61
+1574848650:0;sdk install kotlin 1.3.61
+1574848658:0;sdk install kotlin 1.3.61
+1604579496:0;sdk install kotlin 1.4.10
+1572535119:0;sdk install kscript 2.8.0
+1574848506:0;sdk install kscript 2.9.0
+1574848547:0;sdk install kscript 2.9.0
+1587483441:0;sdk install kscript 2.9.3
+1603373220:0;sdk install kscript 2.9.3
+1606334611:0;sdk install kscript 3.0.2
+1607614170:0;sdk install leiningen 2.9.5
+1561022931:0;sdk install scala 2.13.0
+1604579885:0;sdk install scala 2.13.3
+1568647140:0;sdk install visualvm 1.4.3
+1604579528:0;sdk install visualvm 2.0.4
+1573469990:0;snap install bat
+1570522780:0;snap install cool-retro-term
+1579097395:0;snap install datagrip
+1579097411:0;snap install datagrip --classic
+1575297204:0;snap install --edge --classic podman 
+1575297114:0;snap install --edge --devmode podman 
+1575297220:0;snap install --edge --jailmode podman 
+1575296997:0;snap install --edge podman 
+1572340579:0;snap install --edge zola
+1607618900:0;snap install --edge zola
+1586762512:0;snap install foliate
+1585065937:0;snap install hub
+1585065953:0;snap install hub --classic
+1588235824:0;snap install insomnia
+1570693804:0;snap install links
+1572002557:0;snap install loop-rs --beta
+1570693654:0;snap install lynx
+1578489489:0;snap install microk8s
+1578489498:0;snap install microk8s --clasic
+1574683776:0;snap install microk8s --classic
+1578489500:0;snap install microk8s --classic
+1578479551:0;snap install mosaic
+1570004407:0;snap install newsboat
+1603185221:0;snap install onefetch
+1575296980:0;snap install podman --devmode
+1575296943:0;snap install podman --edge
+1560940501:0;snap install ripgrep
+1560940521:0;snap install ripgrep --clasic
+1560940524:0;snap install ripgrep --classic
+1585732245:0;snap install ttyplot
+1607604166:0;soas aptitude install medit
+1575980667:0;stack install bench
+1602602237:0;stack install hdevtools
+1607616255:0;stack install ShellCheck
+1566289990:0;sudi -i aptitude install libglfw3 libglfw3-dev libglfw3-doc
+1571307878:0;sudo apt-get install cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev python3\
+1571334459:0;sudo apt-get install i3
+1571335230:0;sudo apt-get install libgtk-2-dev\
+1571335166:0;sudo apt-get install libgtk3.0-dev\
+1571335220:0;sudo apt-get install libgtk-3-common\
+1571335226:0;sudo apt-get install libgtk-3-dev\
+1571335240:0;sudo apt-get install libgtk-dev\
+1583222495:0;sudo apt-get install linux-modules-5.3.0-40-generic_5.3.0-40.32~18.04.1_amd64 linux-image-5.3.0-40-generic_5.3.0-40.32~18.04.1_amd64 linux-modules-extra-5.3.0-40-generic_5.3.0-40.32~18.04.1_amd64 linux-image-generic-hwe-18.04_5.3.0.40.97_amd64 linux-headers-5.3.0-40_5.3.0-40.32~18.04.1_all linux-headers-5.3.0-40-generic_5.3.0-40.32~18.04.1_amd64 linux-headers-generic-hwe-18.04_5.3.0.40.97_amd64 linux-generic-hwe-18.04_5.3.0.40.97_amd64\
+1574843679:0;sudo apt-get install putty-tools
+1571750974:0;sudo apt-get install ranger caca-utils highlight atool w3m poppler-utils mediainfo\
+1571134920:0;sudo apt-get install texlive-fonts-recommended texlive-fonts-extra
+1571732957:0;sudo apt-get install xsel\
+1570009181:0;sudo apt-get --no-install-recommends install ocrfeeder tesseract-ocr-spa tesseract-ocr
+1570697731:0;sudo apt install build-essential dkms
+1560940432:0;sudo apt install build-essential pandoc poppler-utils ffmpeg ripgrep cargo
+1565351223:0;sudo apt install chafa
+1586766598:0;sudo apt install ./keybase_amd64.deb
+1573548247:0;sudo apt install libxtst6 libxdo3 xclip
+1570437157:0;sudo apt install mintupgrade
+1571150138:0;sudo apt install texlive-full
+1581341608:0;sudo aptitude -i install hasciicam
+1581423992:0;sudo aptitude install alacritty
+1570794426:0;sudo aptitude install archivemount
+1581336812:0;sudo aptitude install dino-im
+1571822622:0;sudo aptitude install fcrackzip
+1561660961:0;sudo aptitude install hollywood
+1571335028:0;sudo aptitude install libgtk
+1571335018:0;sudo aptitude install libgtk-dev
+1583222419:0;sudo aptitude install linux-modules-5.3.0-40-generic_5.3.0-40.32~18.04.1_amd64.deb linux-image-5.3.0-40-generic_5.3.0-40.32~18.04.1_amd64.deb linux-modules-extra-5.3.0-40-generic_5.3.0-40.32~18.04.1_amd64.deb linux-image-generic-hwe-18.04_5.3.0.40.97_amd64.deb linux-headers-5.3.0-40_5.3.0-40.32~18.04.1_all.deb linux-headers-5.3.0-40-generic_5.3.0-40.32~18.04.1_amd64.deb linux-headers-generic-hwe-18.04_5.3.0.40.97_amd64.deb linux-generic-hwe-18.04_5.3.0.40.97_amd64.deb\
+1583222462:0;sudo aptitude install linux-modules-5.3.0-40-generic_5.3.0-40.32~18.04.1_amd64 linux-image-5.3.0-40-generic_5.3.0-40.32~18.04.1_amd64 linux-modules-extra-5.3.0-40-generic_5.3.0-40.32~18.04.1_amd64 linux-image-generic-hwe-18.04_5.3.0.40.97_amd64 linux-headers-5.3.0-40_5.3.0-40.32~18.04.1_all linux-headers-5.3.0-40-generic_5.3.0-40.32~18.04.1_amd64 linux-headers-generic-hwe-18.04_5.3.0.40.97_amd64 linux-generic-hwe-18.04_5.3.0.40.97_amd64\
+1566220902:0;sudo aptitude install plantuml
+1582921289:0;sudo aptitude install python3.7
+1587468338:0;sudo aptitude install python3.8 python3.8-venv
+1587468283:0;sudo aptitude install python3.8 python3.8-venv python3.8-pip
+1574327710:0;sudo aptitude install qt5dxcb-plugin
+1565085394:0;sudo aptitude install qt-sdk
+1570712031:0;sudo aptitude install squashfs-tools
+1566303151:0;sudo aptitude install swig
+1566303168:0;sudo aptitude install swig swig-sphinxbase 
+1571136655:0;sudo aptitude install texlive-full
+1566546166:0;sudo aptitude install translate-shell
+1575317486:0;sudo aptitude install wkhtmltopdf
+1571137973:0;sudo aptitude -o APT::Get::Fix-Missing=true install texlive-full
+1570624584:0;sudo -i apt-get -f install libperl5.26
+1570624891:0;sudo -i apt-get -f install perl:amd64
+1578500776:0;sudo -i apt-get install fuse-emulator-gtk
+1562586715:0;sudo -i apt-get install /home/ramon/Descargas/gnome-inform7_6M62-0ubuntu1_amd64.deb
+1570625403:0;sudo -i apt-get install libdigest-sha-perl
+1566290127:0;sudo -i apt-get install libglfw3
+1570624575:0;sudo -i apt-get install libperl5.26
+1570624878:0;sudo -i apt-get install perl:amd64
+1578500832:0;sudo -i apt-get install spectrum-roms
+1571134927:0;sudo -i apt-get install texlive-fonts-recommended texlive-fonts-extra
+1573664544:0;sudo -i apt-get install virtualbox-guest-additions
+1573664562:0;sudo -i apt-get install virtualbox-guest-additions-iso
+1572340228:0;sudo -i apt-get install -y software-properties-common uidmap
+1570626073:0;sudo -i apt-get --reinstall install libapparmor-perl
+1570626081:0;sudo -i apt-get --reinstall install perl
+1570627082:0;sudo -i apt-get --reinstall install python-hyperlink python-imaplib2 python-httplib2 python-debian python-apt python-aptdaemon python-aptdaemon.gtk3widgets
+1571650260:0;sudo -i apt install emacs26\
+1566375768:0;sudo -i apt install fslint
+1570439371:0;sudo -i apt install lightdm lightdm-settings slick-greeter\
+1570437613:0;sudo -i apt install mintupgrade\
+1568703050:0;sudo -i apt install signal-desktop
+1578480758:0;sudo -i apt install software-properties-common uidmap
+1571150281:0;sudo -i apt install texlive-full
+1570437667:0;sudo -i apt install timeshift\
+1570794440:0;sudo -i aptitude install archivemount
+1581437181:0;sudo -i aptitude install autokey-common autokey-gtk
+1573469980:0;sudo -i aptitude install bat
+1578567056:0;sudo -i aptitude install bazel
+1578567120:0;sudo -i aptitude install bazel-1.0.0
+1571045527:0;sudo -i aptitude install bind9 bind9utils bind9-doc
+1561367246:0;sudo -i aptitude install calibre
+1578475332:0;sudo -i aptitude install celluloid gnote drawing neofetch xapps
+1578475364:0;sudo -i aptitude install celluloid gnote drawing neofetch xapps-common xapps-doc
+1571922897:0;sudo -i aptitude install chromium
+1571922935:0;sudo -i aptitude install chromium-browser
+1571923013:0;sudo -i aptitude install chromium-codecs-ffmpeg chromium-chromedriver chromium-browser-l10n
+1572530026:0;sudo -i aptitude install cmatrix xcowsay
+1572530180:0;sudo -i aptitude install cmatrix-xfont
+1581337631:0;sudo -i aptitude install dino-im
+1573489454:0;sudo -i aptitude install dot2tex
+1571648953:0;sudo -i aptitude install emacs25
+1571649374:0;sudo -i aptitude install emacs26
+1574078061:0;sudo -i aptitude install flameshot
+1578476631:0;sudo -i aptitude install --force virtualbox-guest-dkms virtualbox-guest-modules virtualbox-guest-utils virtualbox-guest-x11
+1583769717:0;sudo -i aptitude install git-cola
+1579086518:0;sudo -i aptitude install gnome-shell
+1579086626:0;sudo -i aptitude install gnome-shell-extension*
+1579086577:0;sudo -i aptitude install gnome-shell-extensions gnome-shell-pomodoro gnome-shell-timer
+1571149976:0;sudo -i aptitude install gparted
+1581341642:0;sudo -i aptitude install hasciicam
+1572529969:0;sudo -i aptitude install hollywood
+1565085697:0;sudo -i aptitude install libbotan1.10-dev libyaml-cpp-dev
+1565085601:0;sudo -i aptitude install libbotan-devel
+1565085669:0;sudo -i aptitude install libbotan-dev libyaml-cpp-dev
+1566289994:0;sudo -i aptitude install libglfw3 libglfw3-dev libglfw3-doc
+1562660658:0;sudo -i aptitude install liblua5.1-dev
+1562660589:0;sudo -i aptitude install liblua-dev
+1565687446:0;sudo -i aptitude install libmono-microsoft-visualbasic10
+1565687465:0;sudo -i aptitude install libmono-microsoft-visualbasic10.0-cil
+1566998232:0;sudo -i aptitude install libpoppler-cpp-dev
+1573548256:0;sudo -i aptitude install libxtst6 libxdo3 xclip
+1562660576:0;sudo -i aptitude install lua-dev
+1562660314:0;sudo -i aptitude install luarocks
+1583232045:0;sudo -i aptitude install magic-wormhole
+1570437209:0;sudo -i aptitude install mintupgrade
+1565687561:0;sudo -i aptitude install mono-vbnc
+1581343252:0;sudo -i aptitude install mplayer\
+1581344670:0;sudo -i aptitude install mpv
+1578501603:0;sudo -i aptitude install msx-emulator
+1570009207:0;sudo -i aptitude install ocrfeeder tesseract-ocr-spa tesseract-ocr
+1578501728:0;sudo -i aptitude install openmsx-catapult
+1566998122:0;sudo -i aptitude install pdf-grep
+1583225712:0;sudo -i aptitude install pikopixel.app
+1566220939:0;sudo -i aptitude install plantuml
+1582921245:0;sudo -i aptitude install python3.7
+1582921260:0;sudo -i aptitude install python3.7
+1570625947:0;sudo -i aptitude install python3-distutils
+1571648721:0;sudo -i aptitude install python-newt
+1571648497:0;sudo -i aptitude install python-snack
+1565085397:0;sudo -i aptitude install qt-sdk
+1571750991:0;sudo -i aptitude install ranger caca-utils highlight atool w3m poppler-utils mediainfo\
+1571667799:0;sudo -i aptitude install rxvt-unicode
+1571732788:0;sudo -i aptitude install rxvt-unicode-256color
+1568706918:0;sudo -i aptitude install signal-desktop
+1583741132:0;sudo -i aptitude install sl
+1578496975:0;sudo -i aptitude install sqlitebrowser
+1579595038:0;sudo -i aptitude install squashfuse
+1568813404:0;sudo -i aptitude install sshcommand
+1566303185:0;sudo -i aptitude install swig swig-sphinxbase 
+1571647493:0;sudo -i aptitude install synapse
+1573485161:0;sudo -i aptitude install tasksh
+1571135147:0;sudo -i aptitude install texlive-all
+1571136627:0;sudo -i aptitude install texlive-full
+1566546149:0;sudo -i aptitude install translate-shell
+1578476538:0;sudo -i aptitude install virtualbox-guest-dkms virtualbox-guest-modules virtualbox-guest-utils virtualbox-guest-x11
+1581336132:0;sudo -i aptitude install wdiff
+1571903704:0;sudo -i aptitude install xdotool wmctrl
+1573808174:0;sudo -i aptitude install xfce4-notifyd
+1573480189:0;sudo -i aptitude install zathura
+1573480518:0;sudo -i aptitude install 'zathura-*'
+1573480514:0;sudo -i aptitude install zathura-*
+1573480543:0;sudo -i aptitude install zathura-abi-3 zathura-cb zathura-djvu zathura-dev zathura-ps
+1570009200:0;sudo -i aptitude --no-install-recommends install ocrfeeder tesseract-ocr-spa tesseract-ocr
+1571150311:0;sudo -i aptitude -o APT::Get::Fix-Missing=true install texlive-full
+1568703003:0;sudo -i apt update && sudo apt install signal-desktop
+1578566890:0;sudo -i apt update && sudo -i apt install bazel
+1571903698:0;sudo i-i aptitude install xdotool wmctrl
+1578475314:0;sudo -i install celluloid gnote drawing neofetch xapps
+1583231735:0;sudo -i snap install teleport --edge
+1590759176:0;sudo snap install espanso --classic
+1574684955:0;sudo snap install microk8s --classic
+1584364313:0;sudo snap install pixelorama
+1578395706:0;sudo snap install podman --edge
+1578395721:0;sudo snap install podman --edge --devmode
+1583231644:0;sudo snap install teleport --edge
+1606834083:0;TMP_DIR=/dev/shm venv/bin/pip install pyspark==2.3
+1604396012:0;.tox/bin/pip install tox
+1604395987:0;.tox/bin/pip install -U pip
+1571918842:0;/usr/bin/pip3 install --user pip
+1603790919:0;/usr/bin/python3 -m pip install pipenv
+1603790657:0;/usr/bin/python3 -m pip install --upgrade pip
+1606835714:0;venv/bin/pip3 install --build /dev/shm pyspark==2.3
+1606833996:0;venv/bin/pip install --build /dev/shm pyspark==2.3
+1606835725:0;venv/bin/pip install /dev/shm pyspark==2.3
+1606832776:0;venv/bin/pip install mypy
+1606833648:0;venv/bin/pip install pysaprk
+1606837865:0;venv/bin/pip install pyspark==2.3
+1606833658:0;venv/bin/pip install pyspark==2.3.10
+1605625767:0;venv/bin/pip install sqlalchemy-stubs
+
+1566303085:0;wheel install nltk
+1574084055:0;yarn install angular-cli
+1574084052:0;yarn install -g @angular-cli
+1574084045:0;yarn install -g angular-cli

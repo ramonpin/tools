@@ -40,3 +40,9 @@ pex --python=python3.8 -r =(echo cookiecutter) -c cookiecutter -o bin/cookiecutt
 echo "xonsh..."
 pex --python=python3.8 -r =(echo xonsh) -c xonsh -o bin/xonsh
 
+echo "litecli..."
+pex --python=python3.8 -r =(echo "litecli\nsetuptools") -c litecli -o bin/litecli
+
+echo "bpytop"
+pex --python=python3.8 -r =(echo "bpytop") -c bpytop -o bpytop
+
