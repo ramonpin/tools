@@ -316,6 +316,11 @@ Librería de logging para python muy completa.
 * URL: https://logzero.readthedocs.io/en/latest/
 * URL: https://opensource.com/article/20/2/logzero-python
 
+### Loguru
+Otra librería de logging para python con un enfoque pragmático que la hace muy fácil de usar.
+
+* URL: https://loguru.readthedocs.io/en/stable/overview.html
+
 ### epr
 Lector de epub para la línea de comandos.
 
