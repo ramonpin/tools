@@ -1,48 +1,55 @@
 #!/usr/bin/env zsh
 mkdir -p bin
+PYTHON="--python=python3.8"
 
 echo "epr..."
-pex --python=python3.8 -r =(echo git+https://github.com/wustho/epr.git) -c epr -o bin/epr
+eval pex ${PYTHON} -r =(echo epr-reader) -c epr -o bin/epr
 
 echo "awesome-hub..."
-pex --python=python3.8 -r =(echo awesome-finder) -c awesome-hub -o bin/awesome-hub
+eval pex ${PYTHON} -r =(echo awesome-finder) -c awesome-hub -o bin/awesome-hub
 
 echo "cbeans..."
-pex --python=python3.8 -r =(echo cbeams) -c cbeams -o bin/cbeams
+eval pex ${PYTHON} -r =(echo cbeams) -c cbeams -o bin/cbeams
 
 echo "ranger..."
-pex --python=python3.8 -r =(echo ranger-fm) -c ranger -o bin/ranger
+eval pex ${PYTHON} -r =(echo ranger-fm) -c ranger -o bin/ranger
 
 echo "tqdm..."
-pex --python=python3.8 -r =(echo tqdm) -c tqdm -o bin/tqdm 
+eval pex ${PYTHON} -r =(echo tqdm) -c tqdm -o bin/tqdm 
 
 echo "termdown..."
-pex --python=python3.8 -r =(echo "termdown\nsetuptools") -c termdown -o bin/termdown
+eval pex ${PYTHON} -r =(echo "termdown\nsetuptools") -c termdown -o bin/termdown
 
 echo "mycli..."
-pex --python=python3.8 -r =(echo "mycli\nsetuptools") -c mycli -o bin/mycli
+eval pex ${PYTHON} -r =(echo "mycli\nsetuptools") -c mycli -o bin/mycli
 
 echo "http..."
-pex --python=python3.8 -r =(echo "httpie\nsetuptools") -c http -o bin/http
+eval pex ${PYTHON} -r =(echo "httpie\nsetuptools") -c http -o bin/http
 
 echo "gitsome..."
-pex --python=python3.8 -r =(echo "gitsome") -c gitsome -o bin/gitsome
+eval pex ${PYTHON} -r =(echo "gitsome") -c gitsome -o bin/gitsome
 
 echo "ytmdl..."
-pex --python=python3.8 -r =(echo ytmdl) -c ytmdl -o bin/ytmdl
+eval pex ${PYTHON} -r =(echo ytmdl) -c ytmdl -o bin/ytmdl
 
 echo "youtube-dl..."
-pex --python=python3.8 -r =(echo youtube-dl) -c youtube-dl -o bin/youtube-dl
+eval pex ${PYTHON} -r =(echo youtube-dl) -c youtube-dl -o bin/youtube-dl
 
 echo "cookiecutter..."
-pex --python=python3.8 -r =(echo cookiecutter) -c cookiecutter -o bin/cookiecutter
+eval pex ${PYTHON} -r =(echo cookiecutter) -c cookiecutter -o bin/cookiecutter
 
 echo "xonsh..."
-pex --python=python3.8 -r =(echo xonsh) -c xonsh -o bin/xonsh
+eval pex ${PYTHON} -r =(echo xonsh) -c xonsh -o bin/xonsh
 
 echo "litecli..."
-pex --python=python3.8 -r =(echo "litecli\nsetuptools") -c litecli -o bin/litecli
+eval pex ${PYTHON} -r =(echo "litecli\nsetuptools") -c litecli -o bin/litecli
 
-echo "bpytop"
-pex --python=python3.8 -r =(echo "bpytop") -c bpytop -o bpytop
+echo "bpytop..."
+eval pex ${PYTHON} -r =(echo "bpytop") -c bpytop -o bin/bpytop
+
+echo "parquet-tools..."
+eval pex ${PYTHON} -r =(echo "parquet-tools") -c parquet-tools -o bin/parquet-tools
+
+echo "pgcli..."
+eval pex ${PYTHON} -r =(echo "pgcli\nsetuptools") -c pgcli -o bin/pgcli
 
