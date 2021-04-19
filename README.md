@@ -125,6 +125,11 @@ Es una alterna a la interfaz de linea de comandos de Postgres con el mismo tipo 
 
 * URL: https://www.pgcli.com/
 
+### LiteCli
+Otro cliente TUI del mismo estilo que los anteriores pero para sqlite3.
+
+* URL: https://litecli.com/
+
 ### Flyway
 Herramienta de versionado y migración de bases de datos.
 
