@@ -205,6 +205,15 @@ Con entr es posible planificar la ejecución de comandos arbitrarios cuando uno 
 * URL: http://entrproject.org/
 * URL: https://github.com/joereynolds/entree
 
+### watchexec
+Similar al anterior pero escrito en rust. También sirve para planificar la ejecución de tareas cuando se
+producen cambios en un directorio. No obstante este está más enfocado a la ejecución de tareas durante
+el desarrollo de aplicaciones.
+
+    cargo install watchexec
+
+* URL: https://github.com/watchexec/watchexec
+
 ### pass
 El gestor de passwords de Unix basado en gpg. Puede ser instalado desde el gestor de paquetes de la distribución
 pero para obtener la última versión estable es preferible hacerlo manualmente desde el repositorio.
