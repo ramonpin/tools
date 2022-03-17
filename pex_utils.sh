@@ -53,3 +53,7 @@ eval pex ${PYTHON} -r =(echo "parquet-tools") -c parquet-tools -o bin/parquet-to
 echo "pgcli..."
 eval pex ${PYTHON} -r =(echo "pgcli\nsetuptools") -c pgcli -o bin/pgcli
 
+echo "jellex/jello..."
+eval pex ${PYTHON} jellex -c jellex -o bin/jellex
+eval pex ${PYTHON} jello -c jello -o bin/jello
+
