@@ -30,7 +30,7 @@ echo "gitsome..."
 eval pex ${PYTHON} -r =(echo "gitsome") -c gitsome -o bin/gitsome
 
 echo "ytmdl..."
-eval pex ${PYTHON} -r =(echo ytmdl) -c ytmdl -o bin/ytmdl
+eval pex ${PYTHON} ytmdl setuptools -c ytmdl -o bin/ytmdl
 
 echo "youtube-dl..."
 eval pex ${PYTHON} -r =(echo youtube-dl) -c youtube-dl -o bin/youtube-dl
