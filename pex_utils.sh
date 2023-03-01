@@ -2,58 +2,66 @@
 mkdir -p bin
 PYTHON="--python=python3.8"
 
+echo "jellex/jello..."
+pex ${PYTHON} jellex setuptools -c jellex -o bin/jellex
+pex ${PYTHON} jello setuptools -c jello -o bin/jello
+
 echo "epr..."
-eval pex ${PYTHON} -r =(echo epr-reader) -c epr -o bin/epr
+pex ${PYTHON} epr-reader setuptools -c epr -o bin/epr
 
 echo "awesome-hub..."
-eval pex ${PYTHON} -r =(echo awesome-finder) -c awesome-hub -o bin/awesome-hub
+pex ${PYTHON} awesome-finder setuptools -c awesome-hub -o bin/awesome-hub
 
 echo "cbeans..."
-eval pex ${PYTHON} -r =(echo cbeams) -c cbeams -o bin/cbeams
+pex ${PYTHON} cbeams setuptools -c cbeams -o bin/cbeams
 
 echo "ranger..."
-eval pex ${PYTHON} -r =(echo ranger-fm) -c ranger -o bin/ranger
+pex ${PYTHON} ranger-fm setuptools -c ranger -o bin/ranger
 
 echo "tqdm..."
-eval pex ${PYTHON} -r =(echo tqdm) -c tqdm -o bin/tqdm 
+pex ${PYTHON} tqdm setuptools -c tqdm -o bin/tqdm 
 
 echo "termdown..."
-eval pex ${PYTHON} -r =(echo "termdown\nsetuptools") -c termdown -o bin/termdown
+pex ${PYTHON} termdown setuptools -c termdown -o bin/termdown
 
 echo "mycli..."
-eval pex ${PYTHON} -r =(echo "mycli\nsetuptools") -c mycli -o bin/mycli
+pex ${PYTHON} mycli setuptools -c mycli -o bin/mycli
 
 echo "http..."
-eval pex ${PYTHON} -r =(echo "httpie\nsetuptools") -c http -o bin/http
+pex ${PYTHON} httpie setuptools -c http -o bin/http
 
 echo "gitsome..."
-eval pex ${PYTHON} -r =(echo "gitsome") -c gitsome -o bin/gitsome
+pex ${PYTHON} gitsome setuptools -c gitsome -o bin/gitsome
 
 echo "ytmdl..."
-eval pex ${PYTHON} ytmdl setuptools -c ytmdl -o bin/ytmdl
+pex ${PYTHON} ytmdl setuptools -c ytmdl -o bin/ytmdl
 
 echo "youtube-dl..."
-eval pex ${PYTHON} -r =(echo youtube-dl) -c youtube-dl -o bin/youtube-dl
+pex ${PYTHON} youtube-dl setuptools -c youtube-dl -o bin/youtube-dl
 
 echo "cookiecutter..."
-eval pex ${PYTHON} -r =(echo cookiecutter) -c cookiecutter -o bin/cookiecutter
+pex ${PYTHON} cookiecutter setuptools -c cookiecutter -o bin/cookiecutter
 
 echo "xonsh..."
-eval pex ${PYTHON} -r =(echo xonsh) -c xonsh -o bin/xonsh
+pex ${PYTHON} xonsh setuptools -c xonsh -o bin/xonsh
 
 echo "litecli..."
-eval pex ${PYTHON} -r =(echo "litecli\nsetuptools") -c litecli -o bin/litecli
+pex ${PYTHON} litecli setuptools -c litecli -o bin/litecli
 
 echo "bpytop..."
-eval pex ${PYTHON} -r =(echo "bpytop") -c bpytop -o bin/bpytop
+pex ${PYTHON} bpytop setuptools -c bpytop -o bin/bpytop
 
 echo "parquet-tools..."
-eval pex ${PYTHON} -r =(echo "parquet-tools") -c parquet-tools -o bin/parquet-tools
+pex ${PYTHON} parquet-tools setuptools -c parquet-tools -o bin/parquet-tools
 
 echo "pgcli..."
-eval pex ${PYTHON} -r =(echo "pgcli\nsetuptools") -c pgcli -o bin/pgcli
+pex ${PYTHON} pgcli setuptools -c pgcli -o bin/pgcli
 
-echo "jellex/jello..."
-eval pex ${PYTHON} jellex -c jellex -o bin/jellex
-eval pex ${PYTHON} jello -c jello -o bin/jello
+echo "pygmentize"
+pex ${PYTHON} pygments setuptools -c pygmentize -o bin/pygmentize
 
+echo "legit"
+pex legit setuptools -c legit -o bin/legit
+
+echo "jc: command outputs to json"
+pex jc setuptools -c jc -o bin/jc
