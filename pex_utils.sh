@@ -65,3 +65,6 @@ pex legit setuptools -c legit -o bin/legit
 
 echo "jc: command outputs to json"
 pex jc setuptools -c jc -o bin/jc
+
+echo "git-filter-repo: official command to rewrite repo history"
+pex git-filter-repo setuptools -c git-filter-repo -o bin/git-filter-repo
