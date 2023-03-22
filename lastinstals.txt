@@ -14,4 +14,125 @@
 10037* 2020-12-10 13:14  doas aptitude install fsharp
 10043  2020-12-10 13:39  doas aptitude install jove
 10048  2020-12-10 13:42  doas aptitude install medit
-10049  2020-12-10 13:43  history | rg "doas aptitude install"
+
+   50  2022-03-18 08:26  sudo -i aptitude install rofi
+   51  2022-03-18 08:26  sudo -i aptitude install rofi-dev
+   64  2022-03-18 08:40  sudo -i aptitude install ticker tailrss
+   65  2022-03-18 08:40  sudo -i aptitude install ticker rsstail
+  342  2022-03-21 08:46  pip install --save gitpython
+  343  2022-03-21 08:46  pip install gitpython
+  346  2022-03-21 08:57  pip install progress\n
+  347  2022-03-21 08:57  pip install bpython\n
+  348  2022-03-21 08:57  pip install python.progress\n
+  379  2022-03-21 11:11  pip install yaspin
+  380  2022-03-21 11:13  pip install colorama
+  392  2022-03-21 12:06  pip install matplotlib
+  522  2022-03-28 08:45  cargo install lsd
+  572  2022-03-28 10:20  npm install -g json2csv
+  750  2022-03-29 10:15  sudo -i aptitude install erlang-dev
+  932  2022-04-04 09:17  cargo install difftastic
+ 1075  2022-04-05 13:21  sudo -i apt-get install libcurses-perl
+ 1435  2022-04-25 15:37  sudo -i aptitude install patchelf
+ 1561  2022-04-26 08:20  sudo -i aptitude install racket racket-doc
+ 1591  2022-04-26 08:35  sudo -i aptitude install guile-2.2 guile-2.2-doc guile-2.2-dev
+
+ 1594  2022-04-26 08:39  curl -O https://download.clojure.org/install/linux-install-1.11.1.1113.sh
+ 1595  2022-04-26 08:39  chmod +x linux-install-1.11.1.1113.sh
+ 1597  2022-04-26 08:40  ./linux-install-1.11.1.1113.sh --prefix ~ram/clojure
+
+ 1621  2022-04-26 08:56  asdf install rebar 3.18.0
+ 1719  2022-04-26 16:01  asdf install erlang 23.3.4.13
+ 1737  2022-04-26 16:38  sudo -i aptitude install libevent-dev
+ 1764  2022-04-29 11:08  sdk install java 11.0.14
+ 1774  2022-04-29 11:28  sdk install jbake 2.6.7
+ 1784  2022-04-29 11:37  stack cabal install pandoc-sidenote
+ 1936  2022-05-04 15:56  mix escript.install plds
+ 1937  2022-05-04 15:57  mix escript.install hex plds
+ 2025  2022-05-06 12:44  asdf install vim 8.2.4880
+ 2034  2022-05-06 12:45  curl -sLf https://spacevim.org/install.sh | bash
+ 2068  2022-05-06 13:01  asdf install nodejs 18.1.0
+ 2076  2022-05-06 13:03  asdf uninstall nodejs 18.1.0
+ 2080  2022-05-06 13:05  npm -g install remark\nnpm -g install remark-cli\nnpm -g install remark-stringify\nnpm -g install remark-frontmatter\nnpm -g install wcwidth
+ 2115  2022-05-06 14:37  npm install -g neovim
+ 2125  2022-05-06 14:35  pip install neovim
+ 2844  2022-05-30 14:48  sdk install kscript 4.0.3
+ 2847  2022-05-30 14:53  curl -O https://download.clojure.org/install/linux-install-1.11.1.1113.sh
+ 2850  2022-05-30 14:53  bash linux-install-1.11.1.1113.sh --prefix /home/ramon/software/clojure
+ 2869  2022-05-30 15:24  cpan --user install Neovim::Ext
+ 2874  2022-05-30 15:35  cpan install Par::Dist
+ 2875  2022-05-30 15:36  cpan install PAR::Dist
+ 2876  2022-05-30 15:36  cpan install IO::Async
+ 2877  2022-05-30 15:37  cpan install Module::Build::Loop
+ 2878  2022-05-30 15:38  cpan install inc::lastest
+ 2881  2022-05-30 16:07  cpan install IO::Async::Loop
+ 2882  2022-05-30 16:08  cpan install Module::Build
+ 2883  2022-05-30 16:11  cpan install inc::latest
+ 2897  2022-05-30 16:25  sudo -i aptitude install liblocal-lib-perl
+ 2899  2022-05-30 16:26  cpan install Neovim::Ext
+ 2909  2022-05-30 16:36  cpan install App::cpanminus
+ 2910  2022-05-30 16:36  cpan install App::cpanminus::fatscript
+ 2911  2022-05-30 16:38  export PERL_MM_OPT="INSTALL_BASE=~/perl5"
+ 2990  2022-05-31 14:38  go install ./cmd/litestream
+ 3228  2022-06-20 11:29  flatpak install ~desc/com.usebottles.bottles.flatpakref
+ 3235  2022-06-20 11:47  sudo -i apt-get install android-tools-adb android-tools-fastboot
+ 3246  2022-06-20 12:25  sdk uninstall java 21.0.0.r11-grl
+ 3247  2022-06-20 12:26  sdk uninstall java 11.0.9-zulu
+ 3248  2022-06-20 12:26  sdk install java 11.0.9-zulu
+ 3369  2022-06-21 14:06  sudo -i aptitude install egrep-doc
+ 3370  2022-06-21 14:06  sudo -i aptitude install grep-doc
+ 3440  2022-06-24 14:15  env CGO_ENABLED=0 go install -ldflags="-s -w" github.com/gokcehan/lf@latest
+ 3603  2022-07-01 10:49  sudo -i aptitude install resolvconf
+ 3830  2022-07-06 09:04  sudo -i aptitude install moreutils
+ 3870  2022-07-06 09:31  sudo -i aptitude install potrace
+ 3968  2022-07-06 12:10  sdk install ki
+ 3987  2022-07-06 14:12  cargo install tokei
+ 4327  2022-07-13 14:55  pip install setproctitle
+ 5398  2022-11-28 08:56  npm install -g soul-cli
+ 5428  2022-11-28 09:37  asdf install elixir 1.14.2-otp-24
+ 5939  2022-12-13 16:42  sdk install scalacli
+ 6124  2022-12-20 09:26  sudo -i aptitude install emacs28-common emacs28
+ 6142  2022-12-20 10:15  sudo -i aptitude install libgccjit-8-dev libgccjit-8-doc
+ 6143  2022-12-20 10:17  sudo -i aptitude install libgccjit0
+ 6146  2022-12-20 10:18  sudo -i apt-get install libjansson4 libjansson-dev
+ 6153  2022-12-20 10:23  sudo -i aptitude install libgccjit-7-dev libgccjit-7-doc
+ 6154  2022-12-20 10:23  sudo -i aptitude install libgccjit-7-dev
+ 6327  2022-12-27 10:18  cargo install git-cliff
+ 6517  2022-12-28 15:58  sudo snap install emacs --classic
+ 6523  2022-12-28 16:03  sudo -i snap install emacs --classic
+ 6532  2022-12-28 16:09  EMACS=/snap/bin/emacs ~/.emacs.d/bin/doom install
+ 6541  2022-12-28 16:33  pip uninstall certifi charset-normalizer idna requests requests-toolbelt urllib3
+ 6576  2023-01-16 09:25  cargo install git-delta
+ 6915  2023-01-20 12:25  sdk uninstall jbang 0.78.0
+ 7219  2023-01-25 16:59  go install github.com/sorenisanerd/gotty@latest
+ 7261  2023-02-01 08:44  cargo install monolith
+ 7331  2023-02-01 13:20  asdf install erlang 25.2.2
+ 7544  2023-02-09 08:52  asdf install elixir 1.14.3-otp-25
+ 7674  2023-02-28 11:34  sudo -i apt install apt-show-versions
+ 7678  2023-02-28 11:38  sudo -i aptitude install debhelper
+ 7679  2023-02-28 11:39  sudo -i aptitude install libdebhelper-perl
+ 7733  2023-02-28 13:12  sudo aptitude install python-neovim
+ 7809  2023-02-28 16:49  sudo -i aptitude install chromium-chromedriver
+ 7820  2023-02-28 17:09  sudo -i aptitude install libhunspell
+ 7821  2023-02-28 17:09  sudo -i aptitude install libhunspell-dev
+ 7822  2023-02-28 17:10  sudo -i aptitude install libhunspell-1.7.0
+ 7827  2023-02-28 17:21  go install github.com/charmbracelet/glow@latest
+ 7861  2023-03-01 09:04  sudo -i aptitude install python3-distutils python3-apt
+ 8278  2023-03-01 16:47  cargo install tidy-viewer
+ 8325  2023-03-03 09:18  npm install --global g3l
+ 8638  2023-03-07 12:43  sudo -i aptitude install colorize
+ 8670  2023-03-07 14:32  sudo snap install maven-central-search
+ 8671  2023-03-07 14:32  sudo snap uninstall maven-central-search
+ 8689  2023-03-07 14:36  sdk install mcs 0.2.3
+ 8784  2023-03-07 16:22  make prefix=~ram/lgit-2.39.2 install
+ 8785  2023-03-07 16:23  make prefix=/dev/shm/lgit-2.39.2 install
+ 8793  2023-03-07 16:25  make prefix=/home/ramon/software/git-2.39.2 install
+ 8846  2023-03-08 16:05  mix escript.install hex livebook
+ 9199  2023-03-14 17:16  asdf uninstall nodejs 19.7.0
+ 9202  2023-03-14 17:17  asdf uninstall nodejs 17.9.0
+ 9203  2023-03-14 17:17  asdf install nodejs 17.9.0
+ 9260  2023-03-15 10:10  cargo install loop-rs
+ 9581  2023-03-16 10:07  asdf install nodejs 19.7.0
+ 9682  2023-03-16 12:00  npm install -g log4brains
+ 9981  2023-03-22 11:13  sudo -i aptitude install libwxgtk3.0-gtk3-dev
+ 9984  2023-03-22 11:17  sudo -i aptitude install build-essential autoconf m4 libncurses5-dev libwxgtk3.0-gtk3-dev libwxgtk-webview3.0-gtk3-dev libgl1-mesa-dev libglu1-mesa-dev libpng-dev libssh-dev unixodbc-dev xsltproc fop libxml2-utils libncurses-dev openjdk-11-jdk
+ 9985  2023-03-22 11:18  asdf install erlang 25.2.3
