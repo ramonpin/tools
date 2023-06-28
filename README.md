@@ -350,6 +350,13 @@ Un mejor sistema de gestión de dependencias y empaquetado para proyectos python
 
 * URL: https://python-poetry.org/
 
+### pyrsistent
+Una librería que implementa reemplazos funcionales (inmutables) de las estructuras
+de datos básicas de python. Estas utilizan técnicas de 'structural sharing' para
+tener un performace aceptable.
+
+* URL: https://github.com/tobgu/pyrsistent
+
 ## IDEs
 
 ### Spacemacs
