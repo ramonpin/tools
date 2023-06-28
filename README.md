@@ -357,6 +357,11 @@ tener un performace aceptable.
 
 * URL: https://github.com/tobgu/pyrsistent
 
+### jschon
+Librería de validación con JSONSchema.
+
+* URL: https://github.com/marksparkza/jschon
+
 ## IDEs
 
 ### Spacemacs
