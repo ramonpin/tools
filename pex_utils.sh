@@ -68,3 +68,7 @@ pex jc setuptools -c jc -o bin/jc
 
 echo "git-filter-repo: official command to rewrite repo history"
 pex git-filter-repo setuptools -c git-filter-repo -o bin/git-filter-repo
+
+echo "jsonlint: Python Json linter"
+pex jsonlint demjson setuptools -c jsonlint -o bin/jsonlint_py
+# This is renamed to avoid collision with npm jsonlint used by doom emacs
