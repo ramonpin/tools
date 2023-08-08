@@ -290,6 +290,13 @@ Sustituto del comando rm que integra el borrado de ficheros en el shell con la p
 
 NOTA: Lo instalé usando 'pip3 install --user trash-cli'
 
+### http-echo-server
+Es un servidor http que procesa peticiones simplemente devolviendo lo mismo que ha recibido tanto nivel de cabeceras como de contenido. Es útil para verificar que está enviando una determinada aplicación.
+
+* URL: https://github.com/watson/http-echo-server
+
+NOTA: Lo instalé haciendo `npm install -g http-echo-server` en el node por defecto de mi instalación de asdf.
+
 ## Python Libraries
 
 ### pex
