@@ -302,6 +302,12 @@ Este comando permite compartir una aplicación de terminal como una aplicación 
 
 URL: https://github.com/tsl0922/ttyd
 
+### charm vhs
+Este comando permite crear GIFs animados a partir de un fichero de comandos. Esto
+es útil para hacer pequeñas demos de ejecución de comandos/CLIs/TUIs.
+
+URL: https://github.com/charmbracelet/vhs
+
 ## Python Libraries
 
 ### pex
