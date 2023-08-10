@@ -297,6 +297,11 @@ Es un servidor http que procesa peticiones simplemente devolviendo lo mismo que 
 
 NOTA: Lo instalé haciendo `npm install -g http-echo-server` en el node por defecto de mi instalación de asdf.
 
+### ttyd
+Este comando permite compartir una aplicación de terminal como una aplicación web.
+
+URL: https://github.com/tsl0922/ttyd
+
 ## Python Libraries
 
 ### pex
