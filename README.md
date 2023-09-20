@@ -555,3 +555,44 @@ Aplicación para tomar pantallazos con las herramientas de edición y publicaci�
 
 * URL: https://flameshot.js.org/
 
+## Lisp
+
+### ABCL (Armed Bear Common-Lisp)
+Una implementación de Common-Lisp para la JVM.
+
+* URL: https://abcl.org/
+
+### Clojure
+Que decir... es Clojure...
+
+* URL: https://clojure.org/ 
+* URL: https://clojure.camp/
+
+### SBCL (Steel Bank Common-Lisp)
+Una implementación de Common-Lisp que compila a código nativo casi tan
+eficiente como C/C++.
+
+* URL: https://www.sbcl.org/
+
+### CLISP
+Otra implementación de Common-Lisp nativa the GNU.
+
+* URL: https://www.gnu.org/software/clisp/
+
+### ASDF (Another System Definition Facility)
+Un sistema de definición y publicación de systemas que pueden ser usados
+como librerías.
+
+* URL: https://asdf.common-lisp.dev/
+
+### QuickLisp
+Un sistema de paquetería unificado compatible con múltiples implementaciones
+de Common-Lisp.
+
+* URL: https://www.quicklisp.org/beta/
+
+### Roswell
+Un sistema de gestión de versiones e implementaciones de Common-Lisp. integra
+además un mecanismo unificado de 'compilación' de systemas, ASDF y QuickLisp.
+
+* URL: https://roswell.github.io/
