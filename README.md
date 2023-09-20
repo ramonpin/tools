@@ -62,6 +62,12 @@ Herramienta cli que permite filtar un documento JSON de forma interactiva.
 
 * URL: https://github.com/simeji/jid
 
+### jet
+Herramienta cli de transformación entre json, edn y transit. Está desarrollada
+por el mismo programador que ba·bash·ka.
+
+URL: https://github.com/borkdude/jet
+
 ## Git
 
 ### tig
