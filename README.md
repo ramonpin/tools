@@ -277,7 +277,7 @@ Colección de fuentes patcheadas para terminales linux que incluyen los iconos n
 Sustituto de htop que crea un dashboard sobre el estado del sistema. Permite, mediante un plugin, monitorizar también los contenedores docker en ejecución.
 
 * URL: <https://nicolargo.github.io/glances/>
-* DOC: <https://glances.readthedocs.io/en/stable/>
+* DOC: <https://glances.readthedocs.io/en/latest/index.html>
 
 ### bashtop
 Otra herramienta al estilo de htop con un dashboard y una interfaz más modernos.
@@ -413,7 +413,7 @@ Un IDE integrado en tu proyecto leiningen o boot.
 ### nvim
 Un mejor vim. Más rápido y compatible con el vim tradicional.
 
-* URL: <https://salt.bountysource.com/teams/neovim>
+* URL: <https://neovim.io/>
 
 ### SpaceVim
 Spacevim es un conjunto de plugins y un sistema de configuración basado en layers para vim. Es similar al Spacemacs.
@@ -437,7 +437,7 @@ El mejor template para la creación de libros y handouts a usando de markdown y 
 Esta utilidad del sistema operativo (instalable mediante aptitude) permite convertir un documento pdf
 a una cara en un documento pdf en formato 2up listo para su impresión.
 
-* URL: <http://manpages.ubuntu.com/manpages/eoan/en/man1/pdfbook.1.html>
+* URL: <https://linux.die.net/man/1/pdfbook>
 
 ### vegetables
 Convierte docmentos en formato markdown en slides HTML.
@@ -562,7 +562,7 @@ Aplicación para lanzar programas sin dejar el teclado.
 ### flameshot
 Aplicación para tomar pantallazos con las herramientas de edición y publicación incorporadas.
 
-* URL: <https://flameshot.js.org/>
+* URL: <https://flameshot.org/>
 
 ## Lisp
 
