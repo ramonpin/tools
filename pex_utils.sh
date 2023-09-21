@@ -69,6 +69,11 @@ pex jc setuptools -c jc -o bin/jc
 echo "git-filter-repo: official command to rewrite repo history"
 pex git-filter-repo setuptools -c git-filter-repo -o bin/git-filter-repo
 
+# This is jlint instead of jsonlint to avoid clash with 
+# npx jsonlint which is used by emacs/nvim for json validation
+# and formatting
 echo "jsonlint: Python Json linter"
-pex jsonlint demjson setuptools -c jsonlint -o bin/jsonlint_py
-# This is renamed to avoid collision with npm jsonlint used by doom emacs
+pex jsonlint demjson setuptools -c jlint -o bin/jsonlint_py
+
+echo "tabulate: make ascii tables from data"
+pex tabulate setuptools -c tabulate -o bin/tabulate
