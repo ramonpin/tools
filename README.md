@@ -314,6 +314,15 @@ es útil para hacer pequeñas demos de ejecución de comandos/CLIs/TUIs.
 
 URL: <https://github.com/charmbracelet/vhs>
 
+### httplab
+Es un programa que levanta un servidor http pero con la característica particular de que
+tiene una TUI en la que podemos modificar la respuesta que el mismo devolverá a cualquier
+petición. Se puede cambiar el cuerpo, las cabeceras, el tiempo de retraso y el código de 
+la respuesta. También permite analizar las requests recibidas. Es muy útil como herramienta
+para testear o depurar clientes de servicios web.
+
+URL: <https://github.com/qustavo/httplab>
+
 ## Python Libraries
 
 ### pex
