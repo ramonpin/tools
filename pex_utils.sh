@@ -77,3 +77,6 @@ pex jsonlint demjson setuptools -c jlint -o bin/jsonlint_py
 
 echo "tabulate: make ascii tables from data"
 pex tabulate setuptools -c tabulate -o bin/tabulate
+
+echo "asciinema: make GIF of interactive shell session"
+pex asciinema setuptools -c asciinema -o bin/asciinema

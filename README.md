@@ -178,6 +178,11 @@ Sustituto de grep escrito en perl y mucho más rápido.
 
 * URL: <https://beyondgrep.com/>
 
+### asciinema
+Un comando que permite generar y compartir un GIF animado de la ejecución de una sesión interactiva del shell.
+
+* URL: <https://asciinema.org/>
+
 ### sshfs
 Es un filesystem FUSE que permite montar directorios remotos por SSH a nuestra máquina local. Ideal para editar con herramientas gráficas
 ficheros que se encuentran en máquinas servidoras.
