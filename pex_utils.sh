@@ -72,8 +72,8 @@ pex git-filter-repo setuptools -c git-filter-repo -o bin/git-filter-repo
 # This is jlint instead of jsonlint to avoid clash with 
 # npx jsonlint which is used by emacs/nvim for json validation
 # and formatting
-echo "jsonlint: Python Json linter"
-pex jsonlint demjson setuptools -c jlint -o bin/jsonlint_py
+# echo "jsonlint: Python Json linter"
+# pex jsonlint demjson setuptools -c jlint -o bin/jsonlint_py
 
 echo "tabulate: make ascii tables from data"
 pex tabulate setuptools -c tabulate -o bin/tabulate
