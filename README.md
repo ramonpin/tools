@@ -221,7 +221,7 @@ Similar al anterior pero escrito en rust. También sirve para planificar la ejec
 producen cambios en un directorio. No obstante este está más enfocado a la ejecución de tareas durante
 el desarrollo de aplicaciones.
 
-    cargo install watchexec
+    cargo install watchexec-cli
 
 * URL: <https://github.com/watchexec/watchexec>
 
