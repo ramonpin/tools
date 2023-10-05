@@ -597,6 +597,8 @@ Otra implementación de Common-Lisp nativa the GNU.
 Un sistema de definición y publicación de systemas que pueden ser usados
 como librerías.
 
+**OJO:** _No confundir con 'asdf' el instalador multiversión/multiprograma._
+
 * URL: <https://asdf.common-lisp.dev/>
 
 ### QuickLisp
