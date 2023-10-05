@@ -610,3 +610,10 @@ Un sistema de gestión de versiones e implementaciones de Common-Lisp. integra
 además un mecanismo unificado de 'compilación' de systemas, ASDF y QuickLisp.
 
 * URL: <https://roswell.github.io/>
+
+### Joker
+Es un dialecto de Clojure como Babashka pero implementado en Go. Es superrápido
+y su uso fundamental es crear scripts usando la sintaxis de Clojure.
+
+* URL: <https://github.com/candid82/joker>
+
