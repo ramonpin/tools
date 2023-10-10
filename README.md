@@ -83,7 +83,7 @@ Otra muy buena interfaz en modo texto para git similar a tig.
 ### Le.git
 Añade algunos comandos extra a git de modo que sea más sencillo realizar tareas como la sincronización upstream y el cambio entre ramas de forma 'limpia'.
 
-* URL: <http://www.git-legit.org/>
+* URL: <https://frostming.github.io/legit/>
 
 ### gas
 Este es un gestor de authors para git. Con el se simplifica el uso de múltiples usuarios en una misma máquina a la hora de hacer commits en los
