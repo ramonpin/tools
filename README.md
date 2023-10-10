@@ -328,6 +328,14 @@ para testear o depurar clientes de servicios web.
 
 * URL: <https://github.com/qustavo/httplab>
 
+### hostctl
+Una herramienta para manejar el contenido de tu fichero hosts de una forma
+civilizada. Permite crear 'profiles' que agrupan varias entradas que pueden ser
+administradas conjuntamente. También permite añadir de forma automatica las IPs
+de contenedores docker en el fichero hosts dentro de uno de estos 'profiles'.
+
+* URL: <https://github.com/guumaster/hostctl> 
+
 ## Python Libraries
 
 ### pex
