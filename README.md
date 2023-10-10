@@ -66,7 +66,7 @@ Herramienta cli que permite filtar un documento JSON de forma interactiva.
 Herramienta cli de transformación entre json, edn y transit. Está desarrollada
 por el mismo programador que ba·bash·ka.
 
-URL: <https://github.com/borkdude/jet>
+* URL: <https://github.com/borkdude/jet>
 
 ## Git
 
@@ -311,13 +311,13 @@ NOTA: Lo instalé haciendo `npm install -g http-echo-server` en el node por defe
 ### ttyd
 Este comando permite compartir una aplicación de terminal como una aplicación web.
 
-URL: <https://github.com/tsl0922/ttyd>
+* URL: <https://github.com/tsl0922/ttyd>
 
 ### charm vhs
 Este comando permite crear GIFs animados a partir de un fichero de comandos. Esto
 es útil para hacer pequeñas demos de ejecución de comandos/CLIs/TUIs.
 
-URL: <https://github.com/charmbracelet/vhs>
+* URL: <https://github.com/charmbracelet/vhs>
 
 ### httplab
 Es un programa que levanta un servidor http pero con la característica particular de que
@@ -326,7 +326,7 @@ petición. Se puede cambiar el cuerpo, las cabeceras, el tiempo de retraso y el 
 la respuesta. También permite analizar las requests recibidas. Es muy útil como herramienta
 para testear o depurar clientes de servicios web.
 
-URL: <https://github.com/qustavo/httplab>
+* URL: <https://github.com/qustavo/httplab>
 
 ## Python Libraries
 
