@@ -495,6 +495,13 @@ Interfaz gráfica para la administración de contenedores docker en local y remo
 * URL: <https://dockstation.io/>
 
 ## Gestión de entornos / paquetes
+    
+### nala
+Un frontend para apt (Debian/Ubuntu) muy mejorado con capacidad de descarga en paralelo de paquetes y una funcionalidad de
+histórico de instalaciones/actualizaciones que te permite conocer todo lo que has instalado y cuando. Además desde ese
+histórico es posible hacer undo/redo de cualquier acción.
+
+* URL: https://github.com/volitank/nala
 
 ### nix
 Gestor de paquetes y entornos de software para linux. Permite instalar versiones más recientes de algunas herramientas como por
