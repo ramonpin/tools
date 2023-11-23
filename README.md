@@ -68,6 +68,12 @@ por el mismo programador que ba·bash·ka.
 
 * URL: <https://github.com/borkdude/jet>
 
+### jqp
+Herramienta TUI para probar visualmente expresiones 'jq' sobre un fichero json.
+Útil si no tienes muy clara la sintaxis de estas expresiones-
+
+* URL: <https://github.com/noahgorstein/jqp>
+
 ## Git
 
 ### tig
