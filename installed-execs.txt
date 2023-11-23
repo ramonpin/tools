@@ -267,6 +267,7 @@
 /home/ramon/.cargo/bin/nu_plugin_core_textview
 /home/ramon/.cargo/bin/onefetch
 /home/ramon/.cargo/bin/polars
+/home/ramon/.cargo/bin/presenterm
 /home/ramon/.cargo/bin/procs
 /home/ramon/.cargo/bin/pueue
 /home/ramon/.cargo/bin/pueued
@@ -275,6 +276,7 @@
 /home/ramon/.cargo/bin/rga-preproc
 /home/ramon/.cargo/bin/rls
 /home/ramon/.cargo/bin/rnr
+/home/ramon/.cargo/bin/rust-analyzer
 /home/ramon/.cargo/bin/rust-gdb
 /home/ramon/.cargo/bin/rust-gdbgui
 /home/ramon/.cargo/bin/rust-lldb
@@ -2870,6 +2872,7 @@
 /usr/bin/httexi
 /usr/bin/httpcfg
 /usr/bin/httpserv
+/usr/bin/httpx
 /usr/bin/htxelatex
 /usr/bin/htxetex
 /usr/bin/i3
@@ -3484,6 +3487,10 @@
 /usr/bin/lzegrep
 /usr/bin/lzfgrep
 /usr/bin/lzgrep
+/usr/bin/lzip
+/usr/bin/lzip-compressor
+/usr/bin/lzip-decompressor
+/usr/bin/lzip.lzip
 /usr/bin/lzless
 /usr/bin/lzma
 /usr/bin/lzmainfo
@@ -3528,6 +3535,8 @@
 /usr/bin/manpath
 /usr/bin/mapscrn
 /usr/bin/markdown-calibre
+/usr/bin/markdown-it
+/usr/bin/markdown_py
 /usr/bin/match_parens
 /usr/bin/mate-help
 /usr/bin/mathspic
@@ -3771,11 +3780,13 @@
 /usr/bin/mutt_dotlock
 /usr/bin/mutter
 /usr/bin/mxtar
+/usr/bin/mysql_config
 /usr/bin/mzc
 /usr/bin/mzip
 /usr/bin/mzpp
 /usr/bin/mzscheme
 /usr/bin/mztext
+/usr/bin/nala
 /usr/bin/named-rrchecker
 /usr/bin/namei
 /usr/bin/native2ascii
@@ -5682,6 +5693,7 @@
 /usr/games/gob_loadcalc
 /usr/games/grab_cgoban
 /usr/games/mame
+/usr/games/pcsxr
 /usr/games/queen
 /usr/games/scummvm
 /usr/games/scummvm-tools
