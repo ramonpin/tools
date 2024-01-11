@@ -342,6 +342,20 @@ de contenedores docker en el fichero hosts dentro de uno de estos 'profiles'.
 
 * URL: <https://github.com/guumaster/hostctl> 
 
+### distrobox
+Una herramienta casi mágica que permite ejecutar terminales con una distribución
+de linux diferente a la que tenemos en la máquina real. Para ello hace uso de
+docker pero configura automáticamente el acceso a los discos y el entorno
+gráfico. El nuevo entorno está montado por encima de tu entorno real por lo que
+tienes acceso al software (si es compatible a nivel de libc). Si no se quiere
+alterar la home del usuario nativo, al crear el entorno se puede especificar que
+haga uso de otro directorio.
+>
+Es útil para ejecutar programas no disponibles en tu distribución nativa o para
+aprender el uso del sistema de paquetería de una distro diferente.
+
+* URL: <https://distrobox.it/>
+
 ## Python Libraries
 
 ### pex
