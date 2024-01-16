@@ -571,6 +571,12 @@ remoto.
 
 * URL: <https://dockstation.io/>
 
+### sioyek
+Lector de PDF/EPUB orientado al teclado y a la documentación técnica. Es una
+gran herramienta para usar desde la línea de comandos.
+
+* URL: <https://sioyek.info/>
+
 ## Gestión de entornos / paquetes
     
 ### nala
