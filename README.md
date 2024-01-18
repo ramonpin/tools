@@ -402,6 +402,14 @@ aprender el uso del sistema de paquetería de una distro diferente.
 
 * URL: <https://distrobox.it/>
 
+### xcp
+Versión extendida del comando `cp` escrita en rust. Tiene barra de progreso para
+la copia de ficheros y directorios. Utiliza optimizaciones de presentes en las
+versiones más recientes de linux para mejorar el rendimiento de la copia entre
+filesystems y unidades de red.
+
+* URL: https://github.com/tarka/xcp
+
 ## Python Libraries
 
 ### pex
