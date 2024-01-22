@@ -410,6 +410,18 @@ filesystems y unidades de red.
 
 * URL: https://github.com/tarka/xcp
 
+### CRIU
+
+Checkpoint/Restore In Userspace, puede congelar un contenedor en ejecución (o
+una aplicación individual) y guardar su estado en el disco como una colección de
+archivos. Los datos guardados se pueden utilizar para restaurar la aplicación y
+ejecutarla exactamente de la misma manera que estaba durante el tiempo de
+congelación. Con esta funcionalidad, ahora es posible realizar la migración en
+vivo de aplicaciones o contenedores, crear instantáneas, depuración remota y
+muchas otras cosas.
+
+* URL: https://criu.org
+
 ## Python Libraries
 
 ### pex
