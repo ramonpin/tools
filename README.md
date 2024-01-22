@@ -420,7 +420,7 @@ congelación. Con esta funcionalidad, ahora es posible realizar la migración en
 vivo de aplicaciones o contenedores, crear instantáneas, depuración remota y
 muchas otras cosas.
 
-* URL: https://criu.org
+* URL: <https://criu.org>
 
 ## Python Libraries
 
@@ -754,4 +754,4 @@ y su uso fundamental es crear scripts usando la sintaxis de Clojure.
 Es un repositorio preparado para publicar un CV usando github pages. Solo
 require clonar el repositorio y modificar los datos.
 
-* URL: https://github.com/sharu725/online-cv
+* URL: <https://github.com/sharu725/online-cv>
