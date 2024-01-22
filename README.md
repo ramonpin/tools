@@ -747,3 +747,11 @@ Es un dialecto de Clojure como Babashka pero implementado en Go. Es muy rápido
 y su uso fundamental es crear scripts usando la sintaxis de Clojure.
 
 * URL: <https://github.com/candid82/joker>
+
+## CVs
+
+### online-cv
+Es un repositorio preparado para publicar un CV usando github pages. Solo
+require clonar el repositorio y modificar los datos.
+
+* URL: https://github.com/sharu725/online-cv
