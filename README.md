@@ -430,6 +430,14 @@ navegación temporal, avanzando o retrocediendo por minutos, horas o días.
 
 * URL: <https://github.com/Textualize/toolong>
 
+### frogmouth
+
+Un lector TUI de ficheros markdown, similar a glow, pero con un renderizado más
+parecido al de una aplicación de escritorio. Permite navegar por los documentos
+en el filesystem y crear marcadores a los mismos.
+
+* URL: <https://github.com/Textualize/frogmouth>
+
 ## Python Libraries
 
 ### Rich
