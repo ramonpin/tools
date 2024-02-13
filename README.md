@@ -432,6 +432,26 @@ navegación temporal, avanzando o retrocediendo por minutos, horas o días.
 
 ## Python Libraries
 
+### Rich
+
+La API de Rich facilita la adición de color y estilo a la salida del terminal.
+Rich también puede renderizar tablas atractivas, barras de progreso, Markdown,
+código fuente con resaltado de sintaxis, bolcados de stack y más, todo listo
+para usar.
+
+* URL: <https://github.com/Textualize/rich>
+
+### Textual
+
+Textual agrega interactividad a Rich con una API inspirada en el desarrollo web
+moderno. En software de terminal moderno (instalado por defecto en la mayoría de
+los sistemas), las aplicaciones Textual pueden usar 16.7 millones de colores con
+soporte para el mouse y animación suave sin parpadeos. Un potente motor de
+diseño y componentes reutilizables permiten crear aplicaciones que rivalizan con
+la experiencia de escritorio y web.
+
+* URL: <https://github.com/Textualize/textual?tab=readme-ov-file>
+
 ### pex
 Herramienta que permite crear un empaquetado autoejecutable a partir de un
 entorno virtual o un conjunto de paquetes instalados en local.
