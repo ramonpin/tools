@@ -422,6 +422,14 @@ muchas otras cosas.
 
 * URL: <https://criu.org>
 
+### toolong
+
+Esta herramienta TUI permite ver logs de forma fácil. Tiene buscador, coloreado
+syntáctico y permite modo tail. Tiene modo de mergeo de ficheros por fecha y
+navegación temporal, avanzando o retrocediendo por minutos, horas o días.
+
+* URL: <https://github.com/Textualize/toolong>
+
 ## Python Libraries
 
 ### pex
