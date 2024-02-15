@@ -420,7 +420,7 @@ congelación. Con esta funcionalidad, ahora es posible realizar la migración en
 vivo de aplicaciones o contenedores, crear instantáneas, depuración remota y
 muchas otras cosas.
 
-* URL: <https://criu.org>
+* URL: <https://criu.org/Main_Page>
 
 ### toolong
 
