@@ -411,7 +411,6 @@ filesystems y unidades de red.
 * URL: <https://github.com/tarka/xcp>
 
 ### CRIU
-
 Checkpoint/Restore In Userspace, puede congelar un contenedor en ejecución (o
 una aplicación individual) y guardar su estado en el disco como una colección de
 archivos. Los datos guardados se pueden utilizar para restaurar la aplicación y
@@ -423,7 +422,6 @@ muchas otras cosas.
 * URL: <https://criu.org/Main_Page>
 
 ### toolong
-
 Esta herramienta TUI permite ver logs de forma fácil. Tiene buscador, coloreado
 syntáctico y permite modo tail. Tiene modo de mergeo de ficheros por fecha y
 navegación temporal, avanzando o retrocediendo por minutos, horas o días.
@@ -431,7 +429,6 @@ navegación temporal, avanzando o retrocediendo por minutos, horas o días.
 * URL: <https://github.com/Textualize/toolong>
 
 ### frogmouth
-
 Un lector TUI de ficheros markdown, similar a glow, pero con un renderizado más
 parecido al de una aplicación de escritorio. Permite navegar por los documentos
 en el filesystem y crear marcadores a los mismos.
@@ -450,7 +447,6 @@ inmediato.
 ## Python Libraries
 
 ### Rich
-
 La API de Rich facilita la adición de color y estilo a la salida del terminal.
 Rich también puede renderizar tablas atractivas, barras de progreso, Markdown,
 código fuente con resaltado de sintaxis, bolcados de stack y más, todo listo
@@ -459,7 +455,6 @@ para usar.
 * URL: <https://github.com/Textualize/rich>
 
 ### Textual
-
 Textual agrega interactividad a Rich con una API inspirada en el desarrollo web
 moderno. En software de terminal moderno (instalado por defecto en la mayoría de
 los sistemas), las aplicaciones Textual pueden usar 16.7 millones de colores con
