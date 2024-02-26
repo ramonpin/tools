@@ -438,6 +438,15 @@ en el filesystem y crear marcadores a los mismos.
 
 * URL: <https://github.com/Textualize/frogmouth>
 
+### envio
+Envio es una herramienta que facilita la gestión de variables de entorno.
+Permite crear perfiles encriptados que contienen conjuntos de variables
+asociadas a un proyecto o caso de uso específico. Es posible cambiar fácilmente
+entre perfiles e importarlos a la sesión del terminal actual para usarlos de
+inmediato.
+
+* URL: <https://github.com/envio-cli/envio>
+
 ## Python Libraries
 
 ### Rich
