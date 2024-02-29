@@ -444,6 +444,12 @@ inmediato.
 
 * URL: <https://github.com/envio-cli/envio>
 
+### silicon
+Es una herramienta para generar screenshots de tu código al estilo de Carbon
+pero desde la línea de comando y sin depender del navegador.
+
+* URL: <https://github.com/Aloxaf/silicon>
+
 ## Python Libraries
 
 ### Rich
