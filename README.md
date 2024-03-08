@@ -279,8 +279,8 @@ Una vez descargado el mismo puede ejecutarse:
 
 ### drip
 Lanzador de procesos java alternativo. Precalienta una JVM para cada proceso que
-se lanza de modo que las siguientes ejecuciones son arrancan mucho más rápido.
-Ideal para herramientas por línea de comando. Se utiliza por ejemplo con Drake.
+se lanza de modo que las siguientes ejecuciones arrancan mucho más rápido. Ideal
+para herramientas por línea de comando. Se utiliza por ejemplo con Drake.
 
 * URL: <https://github.com/ninjudd/drip>
 
