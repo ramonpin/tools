@@ -404,7 +404,7 @@ aprender el uso del sistema de paquetería de una distro diferente.
 
 ### xcp
 Versión extendida del comando `cp` escrita en rust. Tiene barra de progreso para
-la copia de ficheros y directorios. Utiliza optimizaciones de presentes en las
+la copia de ficheros y directorios. Utiliza optimizaciones presentes en las
 versiones más recientes de linux para mejorar el rendimiento de la copia entre
 filesystems y unidades de red.
 
