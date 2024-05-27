@@ -115,6 +115,12 @@ trata de una gema de ruby así que es necesario tener este interprete instalado.
 
 * URL: <https://github.com/walle/gas>
 
+### git-delta
+Se trata de un paginador avanzado para 'git diff'. Permite no solo ver
+claramente los cambios si no además añade coloreado sintáctico.
+
+* URL: <https://github.com/dandavison/delta>
+
 ### Extra-commands
 Colección de scripts para facilitar ciertas tareas complejas. Contiene algunas
 joyas como 'move-commits' o 'change-author'.
