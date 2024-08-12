@@ -474,7 +474,7 @@ soporte para el mouse y animación suave sin parpadeos. Un potente motor de
 diseño y componentes reutilizables permiten crear aplicaciones que rivalizan con
 la experiencia de escritorio y web.
 
-* URL: <https://github.com/Textualize/textual?tab=readme-ov-file>
+* URL: <https://textual.textualize.io/>
 
 ### pex
 Herramienta que permite crear un empaquetado autoejecutable a partir de un
