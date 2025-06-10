@@ -1,82 +1,109 @@
 #!/usr/bin/env zsh
-mkdir -p bin
-PYTHON="--python=python3.8"
 
-echo "jellex/jello: json parsers with python syntax"
-pex ${PYTHON} jellex setuptools -c jellex -o bin/jellex
-pex ${PYTHON} jello setuptools -c jello -o bin/jello
+# -----------------------------------------------------------------------------
+#! GESTIÓN DE ERRORES: Salir inmediatamente si un comando falla.
+# -----------------------------------------------------------------------------
+set -e
 
-echo "epr: ebook reader on cli"
-pex ${PYTHON} epr-reader setuptools -c epr -o bin/epr
+# -----------------------------------------------------------------------------
+# Configuración
+# -----------------------------------------------------------------------------
 
-echo "awesome-hub: tool to search awesome resources"
-pex ${PYTHON} awesome-finder setuptools -c awesome-hub -o bin/awesome-hub
+#! GESTIÓN DE ERRORES: Verificar si 'pex' está instalado.
+if ! command -v pex &> /dev/null; then
+    echo "❌ Error Crítico: El comando 'pex' no se encuentra en su PATH." >&2
+    echo "   Por favor, instale pex para continuar. Sugerencia: python3 -m pip install pex" >&2
+    exit 1
+fi
 
-echo "cbeams: screen clean with effects"
-pex ${PYTHON} cbeams setuptools -c cbeams -o bin/cbeams
+# 1. Configuración de la versión de Python
+DEFAULT_PYTHON_VERSION="3.10"
+if [ -n "$1" ]; then
+  PYTHON_VERSION=$1
+else
+  PYTHON_VERSION=$DEFAULT_PYTHON_VERSION
+fi
+echo "ℹ️  Usando Python versión: ${PYTHON_VERSION}"
+PYTHON_FLAG="--python=python${PYTHON_VERSION}"
 
-echo "ranger: best cli filemanager"
-pex ${PYTHON} ranger-fm setuptools -c ranger -o bin/ranger
+# 2. Definición de directorios importantes
+STAGING_DIR="bin"
+INSTALL_DIR="${HOME}/.local/bin"
+BACKUP_DIR="backup_$(date +%F_%H-%M-%S)"
 
-echo "tqdm: progress indicator for cli commands"
-pex ${PYTHON} tqdm setuptools -c tqdm -o bin/tqdm 
+# -----------------------------------------------------------------------------
+# Función Principal para Instalar Herramientas
+# -----------------------------------------------------------------------------
+function instalar_herramienta() {
+  local description=$1
+  local pex_package=$2
+  local executable_name=$3
+  
+  echo "--- ${description} ---"
+  
+  local installed_executable_path="${INSTALL_DIR}/${executable_name}"
+  
+  if [ -f "${installed_executable_path}" ]; then
+    echo "🔎 Encontrado '${executable_name}'. Respaldando..."
+    mkdir -p "${BACKUP_DIR}"
+    mv "${installed_executable_path}" "${BACKUP_DIR}/"
+    echo "✅ Respaldo de '${executable_name}' completado en '${BACKUP_DIR}'."
+  else
+    echo "👍 No se encontró una versión anterior de '${executable_name}'."
+  fi
+  
+  echo "⚙️  Generando nueva versión de '${executable_name}'..."
+  
+  #! GESTIÓN DE ERRORES: Se comprueba si pex falló y se muestra un mensaje específico.
+  # El `||` significa "o". Si el comando pex falla, se ejecuta el bloque entre llaves.
+  pex ${PYTHON_FLAG} "${pex_package}" setuptools -c "${executable_name}" -o "${STAGING_DIR}/${executable_name}" || {
+    echo "❌ Error Crítico: Falló la generación de '${executable_name}'." >&2
+    echo "   El script se detendrá. Revisa el error de pex justo arriba para más detalles." >&2
+    exit 1
+  }
+  
+  echo "✨ Nueva versión generada en '${STAGING_DIR}/${executable_name}'."
+  echo ""
+}
 
-echo "termdown: cli countdown timer"
-pex ${PYTHON} termdown setuptools -c termdown -o bin/termdown
+# -----------------------------------------------------------------------------
+# Ejecución de la Instalación
+# -----------------------------------------------------------------------------
+rm -rf "${STAGING_DIR}"
+mkdir -p "${STAGING_DIR}"
 
-echo "mycli: rich mysql client on the terminal"
-pex ${PYTHON} mycli setuptools -c mycli -o bin/mycli
+# ... (la lista de llamadas a `instalar_herramienta` sigue igual)
+instalar_herramienta "jellex: json parser" "jellex" "jellex"
+instalar_herramienta "jello: json parser" "jello" "jello"
+instalar_herramienta "epr: ebook reader" "epr-reader" "epr"
+instalar_herramienta "awesome-hub: awesome searcher" "awesome-finder" "awesome-hub"
+instalar_herramienta "cbeams: screen clean effect" "cbeams" "cbeams"
+instalar_herramienta "ranger: cli filemanager" "ranger-fm" "ranger"
+instalar_herramienta "tqdm: progress indicator" "tqdm" "tqdm"
+instalar_herramienta "termdown: cli countdown" "termdown" "termdown"
+instalar_herramienta "mycli: mysql client" "mycli" "mycli"
+instalar_herramienta "http: a better curl" "httpie" "http"
+instalar_herramienta "gitsome: git helper" "gitsome" "gitsome"
+instalar_herramienta "ytmdl: youtube music downloader" "ytmdl" "ytmdl"
+instalar_herramienta "youtube-dl: video downloader" "youtube-dl" "youtube-dl"
+instalar_herramienta "cookiecutter: project templates" "cookiecutter" "cookiecutter"
+instalar_herramienta "xonsh: pythonesque shell" "xonsh" "xonsh"
+instalar_herramienta "litecli: sqlite3 client" "litecli" "litecli"
+instalar_herramienta "bpytop: graphical top" "bpytop" "bpytop"
+instalar_herramienta "parquet-tools: parquet file tools" "parquet-tools" "parquet-tools"
+instalar_herramienta "pgcli: postgresql client" "pgcli" "pgcli"
+instalar_herramienta "pygmentize: code highlighter" "pygments" "pygmentize"
+instalar_herramienta "legit: git extensions" "legit" "legit"
+instalar_herramienta "jc: command output to json" "jc" "jc"
+instalar_herramienta "git-filter-repo: rewrite repo history" "git-filter-repo" "git-filter-repo"
+instalar_herramienta "tabulate: make ascii tables" "tabulate" "tabulate"
+instalar_herramienta "asciinema: record shell sessions" "asciinema" "asciinema"
+instalar_herramienta "watchmedo: ejecuta comandos al cambiar archivos" "watchdog" "watchmedo"
+instalar_herramienta "visidata: hoja de cálculo para terminal" "visidata" "vd"
+instalar_herramienta "datasette: explora datos con una UI web" "datasette" "datasette"
+instalar_herramienta "mitmproxy: proxy de red interactivo" "mitmproxy" "mitmproxy"
 
-echo "http: a better curl"
-pex ${PYTHON} httpie setuptools -c http -o bin/http
-
-echo "gitsome: git usage helper for bash"
-pex ${PYTHON} gitsome setuptools -c gitsome -o bin/gitsome
-
-echo "ytmdl: youtube music downloader"
-pex ${PYTHON} ytmdl setuptools -c ytmdl -o bin/ytmdl
-
-echo "youtube-dl: youtube video downloader"
-pex ${PYTHON} youtube-dl setuptools -c youtube-dl -o bin/youtube-dl
-
-echo "cookiecutter: project templates"
-pex ${PYTHON} cookiecutter setuptools -c cookiecutter -o bin/cookiecutter
-
-echo "xonsh: pythonesque shell"
-pex ${PYTHON} xonsh setuptools -c xonsh -o bin/xonsh
-
-echo "litecli: rich sqlite3 cli for the terminal"
-pex ${PYTHON} litecli setuptools -c litecli -o bin/litecli
-
-echo "bpytop: advanced graphical top for the terminal"
-pex ${PYTHON} bpytop setuptools -c bpytop -o bin/bpytop
-
-echo "parquet-tools: tools to interact with parquet files"
-pex ${PYTHON} parquet-tools setuptools -c parquet-tools -o bin/parquet-tools
-
-echo "pgcli: rich postgresql cli for the terminal"
-pex ${PYTHON} pgcli setuptools -c pgcli -o bin/pgcli
-
-echo "pygmentize: source code highlighter"
-pex ${PYTHON} pygments setuptools -c pygmentize -o bin/pygmentize
-
-echo "legit: best git extensions"
-pex legit setuptools -c legit -o bin/legit
-
-echo "jc: command outputs to json"
-pex jc setuptools -c jc -o bin/jc
-
-echo "git-filter-repo: official command to rewrite repo history"
-pex git-filter-repo setuptools -c git-filter-repo -o bin/git-filter-repo
-
-# This is jlint instead of jsonlint to avoid clash with 
-# npx jsonlint which is used by emacs/nvim for json validation
-# and formatting
-# echo "jsonlint: Python Json linter"
-# pex jsonlint demjson setuptools -c jlint -o bin/jsonlint_py
-
-echo "tabulate: make ascii tables from data"
-pex tabulate setuptools -c tabulate -o bin/tabulate
-
-echo "asciinema: make GIF of interactive shell session"
-pex asciinema setuptools -c asciinema -o bin/asciinema
+echo "🎉 Proceso de generación completado con éxito."
+echo "Los nuevos ejecutables están en la carpeta '${STAGING_DIR}'."
+echo "Las versiones antiguas (si existían) han sido respaldadas en '${BACKUP_DIR}'."
+echo "Recuerda mover los nuevos ejecutables a tu PATH para instalarlos."
