@@ -46,7 +46,7 @@ function instalar_herramienta() {
   if [ -f "${installed_executable_path}" ]; then
     echo "🔎 Encontrado '${executable_name}'. Respaldando..."
     mkdir -p "${BACKUP_DIR}"
-    mv "${installed_executable_path}" "${BACKUP_DIR}/"
+    cp "${installed_executable_path}" "${BACKUP_DIR}/"
     echo "✅ Respaldo de '${executable_name}' completado en '${BACKUP_DIR}'."
   else
     echo "👍 No se encontró una versión anterior de '${executable_name}'."
