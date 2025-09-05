@@ -678,6 +678,14 @@ pandoc.
 
 * URL: <https://github.com/Wandmalfarbe/pandoc-latex-template>
 
+### Sli.dev
+
+Slidev es un creador y presentador de diapositivas basado en la web. Está
+diseñado para que los programadores se centren en escribir el contenido en
+Markdown.
+
+* URL: <https://sli.dev/>
+
 ### pdfbook
 
 Esta utilidad del sistema operativo (instalable mediante aptitude) permite
