@@ -931,3 +931,14 @@ Es un repositorio preparado para publicar un CV usando github pages. Solo
 require clonar el repositorio y modificar los datos.
 
 * URL: <https://github.com/sharu725/online-cv>
+
+## Self-Host
+
+### ntfy
+
+Servicio de notificaciones push basado en el modelo de publicación-suscripción
+que permite enviar alertas a tu teléfono o escritorio a través de scripts.
+
+* URL: <https://ntfy.sh/>
+* DOC: <https://docs.ntfy.sh/>
+* GH: <https://github.com/binwiederhier/ntfy>
